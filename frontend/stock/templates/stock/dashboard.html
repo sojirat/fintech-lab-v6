@@ -209,9 +209,53 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>📈 TSLA Stock Prediction Dashboard</h1>
+            <h1>📈 Multi-Company Stock Prediction Dashboard</h1>
             <p>Real-time predictions using LSTM, GRU, and Transformer models</p>
-            <button class="btn" onclick="refreshAll()">🔄 Refresh All Data</button>
+
+            <div style="display: flex; justify-content: center; gap: 15px; margin-top: 20px; flex-wrap: wrap;">
+                <div>
+                    <label for="ticker-select" style="display: block; margin-bottom: 5px; color: #666; font-weight: bold;">Select Ticker:</label>
+                    <select id="ticker-select" class="btn" style="padding: 10px 20px;">
+                        <option value="">Loading...</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="model-select" style="display: block; margin-bottom: 5px; color: #666; font-weight: bold;">Select Model:</label>
+                    <select id="model-select" class="btn" style="padding: 10px 20px;">
+                        <option value="all">All Models</option>
+                        <option value="lstm">LSTM</option>
+                        <option value="gru">GRU (Best)</option>
+                        <option value="transformer">Transformer</option>
+                    </select>
+                </div>
+
+                <div style="display: flex; align-items: flex-end;">
+                    <button class="btn" onclick="refreshAll()">🔄 Refresh Data</button>
+                </div>
+            </div>
+
+            <div style="display: flex; justify-content: center; gap: 15px; margin-top: 15px; flex-wrap: wrap; align-items: flex-end;">
+                <div>
+                    <label for="periods-input" style="display: block; margin-bottom: 5px; color: #666; font-weight: bold;">Prediction Periods:</label>
+                    <input type="number" id="periods-input" class="btn" style="padding: 10px 20px; width: 100px;" value="30" min="1" max="365">
+                </div>
+
+                <div>
+                    <label for="period-type-select" style="display: block; margin-bottom: 5px; color: #666; font-weight: bold;">Period Type:</label>
+                    <select id="period-type-select" class="btn" style="padding: 10px 20px;">
+                        <option value="day">Day</option>
+                        <option value="week">Week</option>
+                        <option value="month">Month</option>
+                        <option value="year">Year</option>
+                    </select>
+                </div>
+
+                <div style="display: flex; gap: 10px;">
+                    <button class="btn" onclick="predictFuture()" style="background: #28a745;">🔮 Predict Future</button>
+                    <button class="btn" onclick="trainModel()" style="background: #fd79a8;">🎓 Train Model</button>
+                </div>
+            </div>
         </div>
 
         <div class="grid">
@@ -245,8 +289,8 @@
 
             <!-- Stock Chart Card -->
             <div class="card full-width">
-                <div class="card-title">
-                    📉 TSLA Stock Price History (30 Days)
+                <div class="card-title" id="stock-chart-title">
+                    📉 Stock Price History (30 Days)
                 </div>
                 <div class="chart-container">
                     <canvas id="stockChart"></canvas>
@@ -262,16 +306,77 @@
                     <canvas id="metricsChart"></canvas>
                 </div>
             </div>
+
+            <!-- Future Predictions Card -->
+            <div class="card full-width" id="future-predictions-card" style="display: none;">
+                <div class="card-title">
+                    🔮 Future Price Predictions
+                    <span class="badge" id="future-badge"></span>
+                </div>
+                <div id="future-trend" style="margin-bottom: 15px; text-align: center;"></div>
+                <div class="chart-container">
+                    <canvas id="futureChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Training Status Card -->
+            <div class="card full-width" id="training-status-card" style="display: none;">
+                <div class="card-title">
+                    🎓 Model Training Status
+                </div>
+                <div id="training-content" style="text-align: center; padding: 20px;"></div>
+            </div>
         </div>
     </div>
 
     <script>
         let stockChart = null;
         let metricsChart = null;
+        let futureChart = null;
+
+        function getSelectedTicker() {
+            return document.getElementById('ticker-select').value || 'AAPL';
+        }
+
+        function getSelectedModel() {
+            return document.getElementById('model-select').value || 'all';
+        }
+
+        async function loadAvailableTickers() {
+            try {
+                const response = await fetch('/stock/api/tickers/');
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    const select = document.getElementById('ticker-select');
+                    const tickers = result.data.available_tickers;
+
+                    select.innerHTML = '';
+                    tickers.forEach(ticker => {
+                        const option = document.createElement('option');
+                        option.value = ticker.ticker;
+                        option.textContent = ticker.ticker;
+                        select.appendChild(option);
+                    });
+
+                    // Auto-load data after tickers are loaded
+                    if (tickers.length > 0) {
+                        refreshAll();
+                    }
+                } else {
+                    console.error('Failed to load tickers');
+                }
+            } catch (error) {
+                console.error('Error loading tickers:', error);
+                document.getElementById('ticker-select').innerHTML = '<option value="AAPL">AAPL (Default)</option>';
+            }
+        }
 
         async function loadPredictions() {
             try {
-                const response = await fetch('/stock/api/predictions/');
+                const ticker = getSelectedTicker();
+                const model = getSelectedModel();
+                const response = await fetch(`/stock/api/predictions/?symbol=${ticker}&model=${model}`);
                 const result = await response.json();
 
                 if (result.status === 'success') {
@@ -306,7 +411,8 @@
 
         async function loadMetrics() {
             try {
-                const response = await fetch('/stock/api/metrics/');
+                const ticker = getSelectedTicker();
+                const response = await fetch(`/stock/api/metrics/?ticker=${ticker}`);
                 const result = await response.json();
 
                 if (result.status === 'success') {
@@ -362,7 +468,8 @@
 
         async function loadStockData() {
             try {
-                const response = await fetch('/stock/api/stock-data/?symbol=TSLA&days=30');
+                const ticker = getSelectedTicker();
+                const response = await fetch(`/stock/api/stock-data/?symbol=${ticker}&days=30`);
                 const result = await response.json();
 
                 if (result.status === 'success') {
@@ -370,6 +477,9 @@
 
                     const labels = data.map(d => d.date);
                     const prices = data.map(d => d.close);
+
+                    // Update chart title
+                    document.getElementById('stock-chart-title').textContent = `📉 ${ticker} Stock Price History (30 Days)`;
 
                     if (stockChart) {
                         stockChart.destroy();
@@ -381,7 +491,7 @@
                         data: {
                             labels: labels,
                             datasets: [{
-                                label: 'TSLA Close Price',
+                                label: `${ticker} Close Price`,
                                 data: prices,
                                 borderColor: '#667eea',
                                 backgroundColor: 'rgba(102, 126, 234, 0.1)',
@@ -475,9 +585,182 @@
             loadStockData();
         }
 
+        async function predictFuture() {
+            try {
+                const ticker = getSelectedTicker();
+                let model = getSelectedModel();
+                const periods = document.getElementById('periods-input').value;
+                const periodType = document.getElementById('period-type-select').value;
+
+                // If "all" is selected, use GRU (best model) for future predictions
+                if (model === 'all') {
+                    model = 'gru';
+                }
+
+                // Show loading
+                document.getElementById('future-predictions-card').style.display = 'block';
+                document.getElementById('future-trend').innerHTML = '<div class="loading"><div class="spinner"></div><p>Generating predictions...</p></div>';
+
+                const response = await fetch(`/stock/api/predict-future/?ticker=${ticker}&model=${model}&periods=${periods}&period_type=${periodType}`);
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    const data = result.data;
+
+                    // Update badge - show the original periods selected, not total days
+                    const badgeText = data.total_days === data.periods
+                        ? `${data.total_days} days`
+                        : `${data.periods} ${data.period_type}s (${data.total_days} days)`;
+                    document.getElementById('future-badge').textContent = badgeText;
+
+                    // Display trend
+                    const trendColor = data.trend === 'Bullish' ? '#28a745' : '#dc3545';
+                    const trendIcon = data.trend === 'Bullish' ? '📈' : '📉';
+                    document.getElementById('future-trend').innerHTML = `
+                        <div style="font-size: 1.5em; font-weight: bold; color: ${trendColor};">
+                            ${trendIcon} ${data.trend} Trend: ${data.change_percent > 0 ? '+' : ''}${data.change_percent}%
+                        </div>
+                        <div style="margin-top: 10px; color: #666;">
+                            From $${data.predictions[0].toFixed(2)} to $${data.predictions[data.predictions.length - 1].toFixed(2)}
+                        </div>
+                    `;
+
+                    // Update chart
+                    updateFutureChart(data);
+                } else {
+                    throw new Error(result.message);
+                }
+            } catch (error) {
+                document.getElementById('future-trend').innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+
+        async function trainModel() {
+            try {
+                const ticker = getSelectedTicker();
+
+                if (!confirm(`Start training models for ${ticker}? This will take 30-60 minutes.`)) {
+                    return;
+                }
+
+                // Show training status
+                document.getElementById('training-status-card').style.display = 'block';
+                document.getElementById('training-content').innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Training models for ${ticker}...</p>
+                        <p style="color: #999; font-size: 0.9em;">This process takes 30-60 minutes. The page will auto-refresh when complete.</p>
+                    </div>
+                `;
+
+                const response = await fetch(`/stock/api/train/${ticker}/`, {
+                    method: 'POST'
+                });
+                const result = await response.json();
+
+                if (result.status === 'success') {
+                    document.getElementById('training-content').innerHTML = `
+                        <div style="color: #28a745; font-weight: bold; font-size: 1.2em;">
+                            ✓ Training Started Successfully!
+                        </div>
+                        <div style="margin-top: 15px; color: #666;">
+                            ${result.data.message}
+                        </div>
+                        <div style="margin-top: 15px; padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                            <strong>Process ID:</strong> ${result.data.process_id}<br>
+                            <strong>Ticker:</strong> ${result.data.ticker}
+                        </div>
+                        <div style="margin-top: 15px; color: #999; font-size: 0.9em;">
+                            The page will check for completion every 5 minutes.
+                        </div>
+                    `;
+
+                    // Poll for completion every 5 minutes
+                    const checkInterval = setInterval(async () => {
+                        try {
+                            const checkResponse = await fetch(`/stock/api/models/${ticker}/`);
+                            const checkResult = await checkResponse.json();
+
+                            if (checkResult.status === 'success' && checkResult.data.models.length > 0) {
+                                clearInterval(checkInterval);
+                                document.getElementById('training-content').innerHTML = `
+                                    <div style="color: #28a745; font-weight: bold; font-size: 1.5em;">
+                                        🎉 Training Complete!
+                                    </div>
+                                    <div style="margin-top: 15px;">
+                                        Models are now available for ${ticker}
+                                    </div>
+                                    <button class="btn" onclick="location.reload()" style="margin-top: 20px;">
+                                        Refresh Dashboard
+                                    </button>
+                                `;
+                            }
+                        } catch (e) {
+                            console.error('Error checking training status:', e);
+                        }
+                    }, 300000); // Check every 5 minutes
+                } else {
+                    throw new Error(result.message);
+                }
+            } catch (error) {
+                document.getElementById('training-content').innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+
+        function updateFutureChart(data) {
+            if (futureChart) {
+                futureChart.destroy();
+            }
+
+            const ctx = document.getElementById('futureChart').getContext('2d');
+            futureChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.dates,
+                    datasets: [{
+                        label: 'Predicted Price',
+                        data: data.predictions,
+                        borderColor: data.trend === 'Bullish' ? '#28a745' : '#dc3545',
+                        backgroundColor: data.trend === 'Bullish' ? 'rgba(40, 167, 69, 0.1)' : 'rgba(220, 53, 69, 0.1)',
+                        borderWidth: 3,
+                        fill: true,
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true
+                        },
+                        title: {
+                            display: true,
+                            text: `${data.ticker} Future Price Forecast`
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            ticks: {
+                                callback: function(value) {
+                                    return '$' + value.toFixed(2);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
         // Load data on page load
         window.addEventListener('load', () => {
-            refreshAll();
+            // Load available tickers first
+            loadAvailableTickers();
+
+            // Add event listeners for dropdowns
+            document.getElementById('ticker-select').addEventListener('change', refreshAll);
+            document.getElementById('model-select').addEventListener('change', refreshAll);
 
             // Auto-refresh every 5 minutes
             setInterval(refreshAll, 300000);

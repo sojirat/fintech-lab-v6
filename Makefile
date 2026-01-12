@@ -486,6 +486,50 @@ urls: ## 🌐 Show all service URLs
 	@echo "  • Grafana:     http://localhost:3000  (admin/fintech2025)"
 	@echo "  • Prometheus:  http://localhost:9090"
 
+##@ API-Based Training (via FastAPI)
+
+train-api: ## 🌐 Train ticker via API (use: make train-api TICKER=AAPL)
+	@if [ -z "$(TICKER)" ]; then \
+		echo "$(RED)Error: TICKER not specified!$(NC)"; \
+		echo "$(YELLOW)Usage: make train-api TICKER=AAPL$(NC)"; \
+		exit 1; \
+	fi
+	@echo "$(GREEN)Starting training for $(TICKER) via API...$(NC)"
+	@curl -X POST "http://localhost:8000/train/$(TICKER)" | python3 -m json.tool || echo "$(RED)API call failed. Is FastAPI running?$(NC)"
+	@echo ""
+	@echo "$(YELLOW)Training started! This will take 30-60 minutes.$(NC)"
+	@echo "$(YELLOW)Check status at: http://localhost:8082/stock/$(NC)"
+
+predict-api-day: ## 🌐 Predict via API (30 days, use: make predict-api-day TICKER=AAPL)
+	@if [ -z "$(TICKER)" ]; then \
+		echo "$(RED)Error: TICKER not specified!$(NC)"; \
+		echo "$(YELLOW)Usage: make predict-api-day TICKER=AAPL MODEL=gru$(NC)"; \
+		exit 1; \
+	fi
+	@MODEL_TO_USE=$${MODEL:-gru}; \
+	echo "$(GREEN)Predicting $(TICKER) (30 days) via API...$(NC)"; \
+	curl -X POST "http://localhost:8000/predict/future?ticker=$(TICKER)&model=$$MODEL_TO_USE&periods=30&period_type=day" | python3 -m json.tool || echo "$(RED)API call failed$(NC)"
+
+predict-api-month: ## 🌐 Predict via API (3 months, use: make predict-api-month TICKER=AAPL)
+	@if [ -z "$(TICKER)" ]; then \
+		echo "$(RED)Error: TICKER not specified!$(NC)"; \
+		echo "$(YELLOW)Usage: make predict-api-month TICKER=AAPL MODEL=gru$(NC)"; \
+		exit 1; \
+	fi
+	@MODEL_TO_USE=$${MODEL:-gru}; \
+	echo "$(GREEN)Predicting $(TICKER) (3 months) via API...$(NC)"; \
+	curl -X POST "http://localhost:8000/predict/future?ticker=$(TICKER)&model=$$MODEL_TO_USE&periods=3&period_type=month" | python3 -m json.tool || echo "$(RED)API call failed$(NC)"
+
+predict-api-year: ## 🌐 Predict via API (1 year, use: make predict-api-year TICKER=AAPL)
+	@if [ -z "$(TICKER)" ]; then \
+		echo "$(RED)Error: TICKER not specified!$(NC)"; \
+		echo "$(YELLOW)Usage: make predict-api-year TICKER=AAPL MODEL=gru$(NC)"; \
+		exit 1; \
+	fi
+	@MODEL_TO_USE=$${MODEL:-gru}; \
+	echo "$(GREEN)Predicting $(TICKER) (1 year) via API...$(NC)"; \
+	curl -X POST "http://localhost:8000/predict/future?ticker=$(TICKER)&model=$$MODEL_TO_USE&periods=1&period_type=year" | python3 -m json.tool || echo "$(RED)API call failed$(NC)"
+
 ##@ Complete Workflows
 
 workflow-first-time: build up wait check train-test-quick ## 🎓 First time setup workflow

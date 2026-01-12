@@ -53,3 +53,58 @@ TRANSFORMER: FAILED
 [2026-01-12T12:05:17.790+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=multi_company_stock_training, task_id=train_AAPL_TRANSFORMER, execution_date=20260103T180000, start_date=20260112T114753, end_date=20260112T120517
 [2026-01-12T12:05:19.038+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
 [2026-01-12T12:05:25.022+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-12T18:33:02.574+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_company_stock_training.train_AAPL_TRANSFORMER scheduled__2026-01-03T18:00:00+00:00 [queued]>
+[2026-01-12T18:33:02.600+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_company_stock_training.train_AAPL_TRANSFORMER scheduled__2026-01-03T18:00:00+00:00 [queued]>
+[2026-01-12T18:33:02.638+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-01-12T18:33:02.692+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): train_AAPL_TRANSFORMER> on 2026-01-03 18:00:00+00:00
+[2026-01-12T18:33:02.709+0000] {standard_task_runner.py:60} INFO - Started process 354 to run task
+[2026-01-12T18:33:02.726+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'multi_company_stock_training', 'train_AAPL_TRANSFORMER', 'scheduled__2026-01-03T18:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/multi_company_stock_training_dag.py', '--cfg-path', '/tmp/tmpsacrmaw7']
+[2026-01-12T18:33:02.740+0000] {standard_task_runner.py:88} INFO - Job 49: Subtask train_AAPL_TRANSFORMER
+[2026-01-12T18:33:03.343+0000] {task_command.py:423} INFO - Running <TaskInstance: multi_company_stock_training.train_AAPL_TRANSFORMER scheduled__2026-01-03T18:00:00+00:00 [running]> on host c8e1908e1aac
+[2026-01-12T18:33:03.671+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_company_stock_training' AIRFLOW_CTX_TASK_ID='train_AAPL_TRANSFORMER' AIRFLOW_CTX_EXECUTION_DATE='2026-01-03T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-01-03T18:00:00+00:00'
+[2026-01-12T18:33:04.011+0000] {logging_mixin.py:188} INFO - Executing: python /opt/airflow/work/scripts/stock_prediction/train_multi_company.py --ticker AAPL --model TRANSFORMER --start 2018-01-01 --epochs 20 --batch-size 32
+[2026-01-12T18:35:18.667+0000] {logging_mixin.py:188} INFO - 
+############################################################
+MULTI-COMPANY STOCK PREDICTION TRAINING
+############################################################
+Ticker: AAPL
+Models: TRANSFORMER
+Period: 2018-01-01 to today
+############################################################
+
+
+============================================================
+Downloading AAPL stock data...
+Period: 2018-01-01 to 2026-01-12
+Using: yfinance
+============================================================
+
+🔄 Attempting to download data (attempt 1/5)...
+⚠️  Error on attempt 1: download() got an unexpected keyword argument 'show_errors'
+🔄 Retrying...
+⏳ Waiting 5 seconds before retry (attempt 2/5)...
+🔄 Attempting to download data (attempt 2/5)...
+⚠️  Error on attempt 2: download() got an unexpected keyword argument 'show_errors'
+🔄 Retrying...
+⏳ Waiting 10 seconds before retry (attempt 3/5)...
+🔄 Attempting to download data (attempt 3/5)...
+⚠️  Error on attempt 3: download() got an unexpected keyword argument 'show_errors'
+🔄 Retrying...
+⏳ Waiting 20 seconds before retry (attempt 4/5)...
+🔄 Attempting to download data (attempt 4/5)...
+⚠️  Error on attempt 4: download() got an unexpected keyword argument 'show_errors'
+🔄 Retrying...
+⏳ Waiting 40 seconds before retry (attempt 5/5)...
+🔄 Attempting to download data (attempt 5/5)...
+⚠️  Error on attempt 5: download() got an unexpected keyword argument 'show_errors'
+❌ Failed after 5 attempts: download() got an unexpected keyword argument 'show_errors'
+
+############################################################
+TRAINING SUMMARY FOR AAPL
+############################################################
+TRANSFORMER: FAILED
+############################################################
+[2026-01-12T18:35:18.743+0000] {python.py:201} INFO - Done. Returned value was: AAPL_TRANSFORMER_SUCCESS
+[2026-01-12T18:35:19.556+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=multi_company_stock_training, task_id=train_AAPL_TRANSFORMER, execution_date=20260103T180000, start_date=20260112T183302, end_date=20260112T183519
+[2026-01-12T18:35:19.834+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2026-01-12T18:35:20.398+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
