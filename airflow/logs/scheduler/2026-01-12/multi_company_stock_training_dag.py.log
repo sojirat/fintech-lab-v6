@@ -1592,3 +1592,87 @@
 [2026-01-12T13:21:05.920+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:21:05.920+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2026-01-12T13:21:05.945+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:21:05.944+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
 [2026-01-12T13:21:05.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.249 seconds
+[2026-01-12T13:21:36.200+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:21:36.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:21:36.203+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:21:36.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:21:36.241+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:21:36.358+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:21:36.358+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:21:36.396+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:21:36.396+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:21:36.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.227 seconds
+[2026-01-12T13:22:07.155+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:07.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:22:07.192+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:07.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:07.600+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:07.693+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:07.693+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:22:07.738+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:07.738+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:22:07.775+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.629 seconds
+[2026-01-12T13:22:38.075+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:38.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:22:38.081+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:38.080+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:38.126+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:22:38.198+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:38.198+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:22:38.221+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:22:38.221+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:22:38.235+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.169 seconds
+[2026-01-12T13:23:08.542+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:08.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:23:08.548+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:08.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:08.581+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:08.666+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:08.666+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:23:08.693+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:08.693+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:23:08.706+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.169 seconds
+[2026-01-12T13:23:39.016+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:39.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:23:39.019+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:39.019+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:39.056+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:23:39.168+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:39.168+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:23:39.202+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:23:39.202+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:23:39.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.264 seconds
+[2026-01-12T13:24:09.553+0000] {processor.py:161} INFO - Started process (PID=273) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:09.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:24:09.556+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:09.555+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:09.605+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:09.696+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:09.695+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:24:09.721+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:09.721+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:24:09.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.192 seconds
+[2026-01-12T13:24:40.062+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:40.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:24:40.064+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:40.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:40.092+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:24:40.153+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:40.152+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:24:40.171+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:24:40.171+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:24:40.181+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.125 seconds
+[2026-01-12T13:25:10.738+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:10.741+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:25:10.742+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:10.742+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:10.775+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:10.852+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:10.852+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:25:10.871+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:10.871+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:25:10.885+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.153 seconds
+[2026-01-12T13:25:41.118+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:41.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:25:41.120+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:41.120+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:41.150+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:25:41.220+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:41.220+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:25:41.237+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:25:41.237+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:25:41.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.134 seconds
+[2026-01-12T13:26:11.806+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:11.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:26:11.808+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:11.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:11.836+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:11.898+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:11.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:26:11.917+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:11.917+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:26:11.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.125 seconds
+[2026-01-12T13:26:42.558+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:42.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:26:42.568+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:42.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:42.692+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:26:42.817+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:42.817+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:26:42.861+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:26:42.860+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:26:42.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.345 seconds
+[2026-01-12T13:27:13.401+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:27:13.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/multi_company_stock_training_dag.py for tasks to queue
+[2026-01-12T13:27:13.403+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:27:13.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:27:13.496+0000] {processor.py:840} INFO - DAG(s) 'multi_company_stock_training' retrieved from /opt/airflow/dags/multi_company_stock_training_dag.py
+[2026-01-12T13:27:13.749+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:27:13.749+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T13:27:13.854+0000] {logging_mixin.py:188} INFO - [2026-01-12T13:27:13.853+0000] {dag.py:3823} INFO - Setting next_dagrun for multi_company_stock_training to 2026-01-10 18:00:00+00:00, run_after=2026-01-17 18:00:00+00:00
+[2026-01-12T13:27:13.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/multi_company_stock_training_dag.py took 0.494 seconds

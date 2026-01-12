@@ -8,12 +8,12 @@
 
 > **หมายเหตุเกี่ยวกับ Screenshots:**
 > ภาพหน้าจอ (screenshots) 
-> สามารถดูไฟล์ได้ที่โฟลเดอร์ <a href="https://github.com/sojirat/fintech-lab-v6/my-test" target="_blank">my-test/</a>
+> สามารถดูไฟล์ได้ที่โฟลเดอร์ <a href="https://github.com/sojirat/fintech-lab-v6/tree/main/my-test" target="_blank">my-test/</a>
 >
 > **ไฟล์ที่เกี่ยวข้อง:**
-> - <a href="https://github.com/sojirat/fintech-lab-v6/jupyter/models/AAPL/comparison_aapl.png" target="_blank">jupyter/models/AAPL/comparison_aapl.png</a> - AAPL
-> - <a href="https://github.com/sojirat/fintech-lab-v6/jupyter/models/GOOGL/comparison_googl.png" target="_blank">jupyter/models/GOOGL/comparison_googl.png</a> - GOOGL
-> - <a href="https://github.com/sojirat/fintech-lab-v6/jupyter/models/TSLA/comparison_tsla.png" target="_blank">jupyter/models/TSLA/comparison_tsla.png</a> - TSLA
+> - <a href="https://github.com/sojirat/fintech-lab-v6/tree/main/jupyter/models/AAPL/comparison_aapl.png" target="_blank">jupyter/models/AAPL/comparison_aapl.png</a> - AAPL
+> - <a href="https://github.com/sojirat/fintech-lab-v6/tree/main/jupyter/models/GOOGL/comparison_googl.png" target="_blank">jupyter/models/GOOGL/comparison_googl.png</a> - GOOGL
+> - <a href="https://github.com/sojirat/fintech-lab-v6/tree/main/jupyter/models/TSLA/comparison_tsla.png" target="_blank">jupyter/models/TSLA/comparison_tsla.png</a> - TSLA
 > 
 
 ---
