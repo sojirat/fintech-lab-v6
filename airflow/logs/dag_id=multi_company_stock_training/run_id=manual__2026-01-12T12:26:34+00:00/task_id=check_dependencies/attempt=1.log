@@ -1,0 +1,36 @@
+[2026-01-12T12:26:57.738+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: multi_company_stock_training.check_dependencies manual__2026-01-12T12:26:34+00:00 [queued]>
+[2026-01-12T12:26:57.743+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: multi_company_stock_training.check_dependencies manual__2026-01-12T12:26:34+00:00 [queued]>
+[2026-01-12T12:26:57.744+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2026-01-12T12:26:57.752+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): check_dependencies> on 2026-01-12 12:26:34+00:00
+[2026-01-12T12:26:57.754+0000] {standard_task_runner.py:60} INFO - Started process 176 to run task
+[2026-01-12T12:26:57.756+0000] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'multi_company_stock_training', 'check_dependencies', 'manual__2026-01-12T12:26:34+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/multi_company_stock_training_dag.py', '--cfg-path', '/tmp/tmpqyynaer4']
+[2026-01-12T12:26:57.758+0000] {standard_task_runner.py:88} INFO - Job 35: Subtask check_dependencies
+[2026-01-12T12:26:57.804+0000] {task_command.py:423} INFO - Running <TaskInstance: multi_company_stock_training.check_dependencies manual__2026-01-12T12:26:34+00:00 [running]> on host 3c06fa714576
+[2026-01-12T12:26:57.867+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='multi_company_stock_training' AIRFLOW_CTX_TASK_ID='check_dependencies' AIRFLOW_CTX_EXECUTION_DATE='2026-01-12T12:26:34+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-12T12:26:34+00:00'
+[2026-01-12T12:26:57.868+0000] {logging_mixin.py:188} INFO - Checking dependencies...
+[2026-01-12T12:26:57.868+0000] {logging_mixin.py:188} INFO - Missing dependency: No module named 'tensorflow'
+[2026-01-12T12:26:57.868+0000] {logging_mixin.py:188} INFO - Installing required packages...
+[2026-01-12T12:27:42.552+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/opt/airflow/dags/multi_company_stock_training_dag.py", line 61, in check_and_install_dependencies
+    import tensorflow
+ModuleNotFoundError: No module named 'tensorflow'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/multi_company_stock_training_dag.py", line 71, in check_and_install_dependencies
+    subprocess.check_call([sys.executable, '-m', 'pip', 'install'] + required_packages)
+  File "/usr/local/lib/python3.10/subprocess.py", line 369, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/local/bin/python', '-m', 'pip', 'install', 'tensorflow==2.15.0', 'scikit-learn==1.3.2', 'yfinance==0.2.32', 'pandas', 'numpy', 'matplotlib']' returned non-zero exit status 2.
+[2026-01-12T12:27:42.585+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=multi_company_stock_training, task_id=check_dependencies, execution_date=20260112T122634, start_date=20260112T122657, end_date=20260112T122742
+[2026-01-12T12:27:42.618+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 35 for task check_dependencies (Command '['/usr/local/bin/python', '-m', 'pip', 'install', 'tensorflow==2.15.0', 'scikit-learn==1.3.2', 'yfinance==0.2.32', 'pandas', 'numpy', 'matplotlib']' returned non-zero exit status 2.; 176)
+[2026-01-12T12:27:42.666+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2026-01-12T12:27:42.705+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

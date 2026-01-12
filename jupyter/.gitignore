@@ -1,0 +1,14 @@
+# ML Models (large files)
+models/*.h5
+models/*.pkl
+models/*.png
+
+# Keep directory structure
+!models/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc

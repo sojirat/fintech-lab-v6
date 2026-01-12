@@ -1,0 +1,182 @@
+[2026-01-11T00:27:47.116+0000] {processor.py:161} INFO - Started process (PID=69707) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T00:27:47.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T00:27:47.123+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:47.122+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T00:27:47.139+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T00:27:47.203+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:47.203+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T00:27:47.266+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:47.265+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T00:27:47.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.225 seconds
+[2026-01-11T00:28:18.076+0000] {processor.py:161} INFO - Started process (PID=69729) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T00:28:18.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T00:28:18.082+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:18.082+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T00:28:18.099+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T00:28:18.143+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:18.142+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T00:28:18.170+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:18.169+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T00:28:18.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.112 seconds
+[2026-01-11T01:17:04.172+0000] {processor.py:161} INFO - Started process (PID=69749) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T01:17:04.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T01:17:04.173+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.173+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T01:17:04.179+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T01:17:04.204+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.204+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T01:17:04.215+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.215+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T01:17:04.224+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.055 seconds
+[2026-01-11T01:29:14.675+0000] {processor.py:161} INFO - Started process (PID=69775) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T01:29:14.676+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T01:29:14.677+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.677+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T01:29:14.695+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T01:29:14.728+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.728+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T01:29:14.746+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.746+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T01:29:14.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.086 seconds
+[2026-01-11T02:03:46.764+0000] {processor.py:161} INFO - Started process (PID=69797) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T02:03:46.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T02:03:46.774+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.773+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T02:03:46.797+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T02:03:46.899+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.898+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:03:46.915+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.915+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T02:03:46.926+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.171 seconds
+[2026-01-11T02:30:11.028+0000] {processor.py:161} INFO - Started process (PID=69821) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T02:30:11.030+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T02:30:11.031+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:11.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T02:30:11.055+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T02:30:11.103+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:11.103+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:30:11.132+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:11.132+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T02:30:11.155+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.135 seconds
+[2026-01-11T03:02:01.672+0000] {processor.py:161} INFO - Started process (PID=69847) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T03:02:01.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T03:02:01.674+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:02:01.689+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:02:01.728+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.728+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:02:01.756+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.756+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T03:02:01.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.112 seconds
+[2026-01-11T03:31:07.575+0000] {processor.py:161} INFO - Started process (PID=69871) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T03:31:07.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T03:31:07.578+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:31:07.585+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:31:07.613+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.613+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:31:07.637+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.636+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T03:31:07.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.083 seconds
+[2026-01-11T03:49:34.151+0000] {processor.py:161} INFO - Started process (PID=69900) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T03:49:34.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T03:49:34.153+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.153+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:49:34.161+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T03:49:34.182+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.182+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:49:34.199+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.199+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T03:49:34.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.066 seconds
+[2026-01-11T04:05:58.628+0000] {processor.py:161} INFO - Started process (PID=69919) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T04:05:58.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T04:05:58.632+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:05:58.645+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:05:58.680+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.680+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:05:58.708+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.707+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T04:05:58.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.110 seconds
+[2026-01-11T04:31:58.790+0000] {processor.py:161} INFO - Started process (PID=69943) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T04:31:58.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T04:31:58.791+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:31:58.797+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:31:58.812+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.812+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:31:58.823+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.823+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T04:31:58.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.042 seconds
+[2026-01-11T04:32:29.315+0000] {processor.py:161} INFO - Started process (PID=69967) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T04:32:29.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T04:32:29.317+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:32:29.323+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T04:32:29.338+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.338+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:32:29.349+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.349+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T04:32:29.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.044 seconds
+[2026-01-11T05:32:56.433+0000] {processor.py:161} INFO - Started process (PID=69987) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T05:32:56.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T05:32:56.436+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.436+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T05:32:56.453+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T05:32:56.495+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.495+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T05:32:56.519+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.519+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T05:32:56.569+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.140 seconds
+[2026-01-11T05:33:27.000+0000] {processor.py:161} INFO - Started process (PID=70011) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T05:33:27.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T05:33:27.001+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:27.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T05:33:27.007+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T05:33:27.022+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:27.021+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T05:33:27.032+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:27.032+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T05:33:27.039+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.042 seconds
+[2026-01-11T06:33:52.769+0000] {processor.py:161} INFO - Started process (PID=70031) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T06:33:52.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T06:33:52.775+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.774+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T06:33:52.802+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T06:33:52.845+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.845+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T06:33:52.891+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.890+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T06:33:52.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.154 seconds
+[2026-01-11T06:34:23.375+0000] {processor.py:161} INFO - Started process (PID=70057) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T06:34:23.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T06:34:23.377+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.376+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T06:34:23.383+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T06:34:23.398+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.398+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T06:34:23.408+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.408+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T06:34:23.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.043 seconds
+[2026-01-11T07:07:44.180+0000] {processor.py:161} INFO - Started process (PID=70079) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:07:44.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:07:44.181+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.181+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:07:44.193+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:07:44.219+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.218+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:07:44.233+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.233+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:07:44.245+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.066 seconds
+[2026-01-11T07:08:14.711+0000] {processor.py:161} INFO - Started process (PID=70101) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:08:14.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:08:14.712+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.712+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:08:14.719+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:08:14.734+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.734+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:08:14.744+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.743+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:08:14.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.043 seconds
+[2026-01-11T07:09:34.550+0000] {processor.py:161} INFO - Started process (PID=70122) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:09:34.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:09:34.551+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.551+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:09:34.556+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:09:34.568+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.568+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:09:34.578+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.578+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:09:34.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.038 seconds
+[2026-01-11T07:25:47.030+0000] {processor.py:161} INFO - Started process (PID=70145) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:25:47.031+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:25:47.032+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:47.031+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:25:47.037+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:25:47.053+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:47.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:25:47.063+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:47.063+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:25:47.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.043 seconds
+[2026-01-11T07:26:17.535+0000] {processor.py:161} INFO - Started process (PID=70167) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:26:17.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:26:17.536+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.536+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:26:17.541+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:26:17.554+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.554+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:26:17.564+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.563+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:26:17.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.038 seconds
+[2026-01-11T07:35:04.213+0000] {processor.py:161} INFO - Started process (PID=70187) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:35:04.216+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:35:04.219+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:35:04.258+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:35:04.319+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.319+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:35:04.358+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.357+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:35:04.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.183 seconds
+[2026-01-11T07:50:56.141+0000] {processor.py:161} INFO - Started process (PID=70213) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T07:50:56.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T07:50:56.143+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:56.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:50:56.155+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T07:50:56.285+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:56.285+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:50:56.388+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:56.388+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T07:50:56.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.283 seconds
+[2026-01-11T08:27:16.736+0000] {processor.py:161} INFO - Started process (PID=70243) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:16.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T08:27:16.738+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.738+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:16.746+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:16.793+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.793+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:27:17.207+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:17.199+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T08:27:17.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.527 seconds
+[2026-01-11T08:27:47.352+0000] {processor.py:161} INFO - Started process (PID=70263) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:47.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T08:27:47.355+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.354+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:47.364+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:27:47.398+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.398+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:27:47.440+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.439+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T08:27:47.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.098 seconds
+[2026-01-11T08:28:18.231+0000] {processor.py:161} INFO - Started process (PID=70283) to work on /opt/airflow/dags/example_dag.py
+[2026-01-11T08:28:18.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2026-01-11T08:28:18.232+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:18.232+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:28:18.243+0000] {processor.py:840} INFO - DAG(s) 'fintech_example' retrieved from /opt/airflow/dags/example_dag.py
+[2026-01-11T08:28:18.281+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:18.281+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:28:18.313+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:18.313+0000] {dag.py:3823} INFO - Setting next_dagrun for fintech_example to 2026-01-10 00:00:00+00:00, run_after=2026-01-11 00:00:00+00:00
+[2026-01-11T08:28:18.326+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/example_dag.py took 0.098 seconds

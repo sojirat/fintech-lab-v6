@@ -1,0 +1,1374 @@
+[2026-01-12T10:49:20.767+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:49:20.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:49:20.768+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:49:20.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:49:24.667+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:49:24.682+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:49:24.681+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:49:24.695+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:49:24.695+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:49:24.704+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.940 seconds
+[2026-01-12T10:49:55.209+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:49:55.215+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:49:55.217+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:49:55.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:50:02.690+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:50:02.753+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:50:02.752+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:50:02.772+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:50:02.772+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:50:02.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.586 seconds
+[2026-01-12T10:50:32.978+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:50:32.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:50:32.980+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:50:32.980+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:50:36.202+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:50:36.223+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:50:36.223+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:50:36.240+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:50:36.240+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:50:36.249+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.275 seconds
+[2026-01-12T10:52:47.605+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:52:47.607+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:52:47.608+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:52:47.607+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:52:52.147+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:52:52.163+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:52:52.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:52:52.184+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:52:52.184+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:52:52.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.596 seconds
+[2026-01-12T10:53:22.281+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:22.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:53:22.290+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:22.285+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:25.143+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:25.298+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:25.297+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:53:25.315+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:25.315+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:53:25.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.054 seconds
+[2026-01-12T10:53:55.922+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:55.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:53:55.924+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:55.924+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:59.099+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:53:59.132+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:59.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:53:59.160+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:53:59.160+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:53:59.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.253 seconds
+[2026-01-12T10:54:29.618+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:54:29.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:54:29.620+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:54:29.620+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:54:33.215+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:54:33.256+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:54:33.254+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:54:33.286+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:54:33.286+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:54:33.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.688 seconds
+[2026-01-12T10:55:03.870+0000] {processor.py:161} INFO - Started process (PID=327) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:03.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:55:03.871+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:03.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:06.345+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:06.367+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:06.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:55:06.380+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:06.380+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:55:06.389+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.522 seconds
+[2026-01-12T10:55:37.401+0000] {processor.py:161} INFO - Started process (PID=356) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:37.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:55:37.405+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:37.404+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:42.458+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:55:42.494+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:42.494+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:55:42.520+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:55:42.520+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:55:42.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.144 seconds
+[2026-01-12T10:56:13.105+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:13.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:56:13.108+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:13.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:15.744+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:15.769+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:15.768+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:56:15.785+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:15.785+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:56:15.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.698 seconds
+[2026-01-12T10:56:46.377+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:46.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:56:46.379+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:46.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:49.447+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:56:49.494+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:49.494+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:56:49.531+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:56:49.531+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:56:49.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.174 seconds
+[2026-01-12T10:57:20.300+0000] {processor.py:161} INFO - Started process (PID=443) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:20.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:57:20.302+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:20.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:24.699+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:24.727+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:24.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:57:24.743+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:24.743+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:57:24.758+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.464 seconds
+[2026-01-12T10:57:55.399+0000] {processor.py:161} INFO - Started process (PID=487) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:55.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:57:55.400+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:55.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:59.447+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:57:59.511+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:59.510+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:57:59.560+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:57:59.559+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:57:59.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.189 seconds
+[2026-01-12T10:58:29.962+0000] {processor.py:161} INFO - Started process (PID=516) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:58:29.963+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:58:29.967+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:58:29.965+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:58:35.324+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:58:35.374+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:58:35.373+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:58:35.399+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:58:35.398+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:58:35.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.455 seconds
+[2026-01-12T10:59:05.812+0000] {processor.py:161} INFO - Started process (PID=545) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:05.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:59:05.814+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:05.814+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:12.002+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:12.163+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:12.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:59:12.230+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:12.229+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:59:12.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.471 seconds
+[2026-01-12T10:59:43.111+0000] {processor.py:161} INFO - Started process (PID=574) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:43.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T10:59:43.115+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:43.114+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:49.729+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T10:59:49.753+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:49.753+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T10:59:49.769+0000] {logging_mixin.py:188} INFO - [2026-01-12T10:59:49.768+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T10:59:49.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.679 seconds
+[2026-01-12T11:00:20.397+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:20.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:00:20.461+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:20.459+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:24.936+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:24.993+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:24.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:00:25.019+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:25.019+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:00:25.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.651 seconds
+[2026-01-12T11:00:55.596+0000] {processor.py:161} INFO - Started process (PID=632) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:55.597+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:00:55.598+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:55.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:58.276+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:00:58.348+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:58.348+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:00:58.376+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:00:58.376+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:00:58.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.808 seconds
+[2026-01-12T11:01:28.524+0000] {processor.py:161} INFO - Started process (PID=676) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:01:28.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:01:28.526+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:01:28.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:01:31.884+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:01:32.040+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:01:32.033+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:01:32.127+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:01:32.127+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:01:32.167+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.648 seconds
+[2026-01-12T11:02:02.830+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:02.832+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:02:02.833+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:02.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:09.472+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:09.501+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:09.500+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:02:09.515+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:09.515+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:02:09.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.704 seconds
+[2026-01-12T11:02:40.183+0000] {processor.py:161} INFO - Started process (PID=734) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:40.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:02:40.186+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:40.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:43.734+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:02:43.768+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:43.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:02:43.784+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:02:43.784+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:02:43.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.644 seconds
+[2026-01-12T11:03:14.483+0000] {processor.py:161} INFO - Started process (PID=763) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:14.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:03:14.492+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:14.492+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:19.310+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:19.343+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:19.343+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:03:19.364+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:19.363+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:03:19.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.899 seconds
+[2026-01-12T11:03:49.994+0000] {processor.py:161} INFO - Started process (PID=792) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:49.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:03:49.996+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:49.996+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:52.725+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:03:52.742+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:52.741+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:03:52.759+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:03:52.758+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:03:52.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.776 seconds
+[2026-01-12T11:04:23.355+0000] {processor.py:161} INFO - Started process (PID=821) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:23.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:04:23.360+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:23.359+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:25.471+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:25.489+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:25.489+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:04:25.500+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:25.500+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:04:25.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.160 seconds
+[2026-01-12T11:04:56.062+0000] {processor.py:161} INFO - Started process (PID=850) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:56.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:04:56.065+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:56.065+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:58.118+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:04:58.159+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:58.159+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:04:58.175+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:04:58.175+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:04:58.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.129 seconds
+[2026-01-12T11:05:28.646+0000] {processor.py:161} INFO - Started process (PID=879) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:05:28.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:05:28.649+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:05:28.648+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:05:30.925+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:05:30.943+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:05:30.942+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:05:30.955+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:05:30.955+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:05:30.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.321 seconds
+[2026-01-12T11:06:01.348+0000] {processor.py:161} INFO - Started process (PID=916) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:01.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:06:01.352+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:01.352+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:04.298+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:04.376+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:04.376+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:06:04.415+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:04.414+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:06:04.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.093 seconds
+[2026-01-12T11:06:35.184+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:35.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:06:35.186+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:35.186+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:37.415+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:06:37.432+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:37.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:06:37.442+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:06:37.442+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:06:37.450+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.270 seconds
+[2026-01-12T11:07:07.723+0000] {processor.py:161} INFO - Started process (PID=981) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:07.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:07:07.726+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:07.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:10.167+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:10.190+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:10.190+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:07:10.202+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:10.202+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:07:10.211+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.493 seconds
+[2026-01-12T11:07:40.292+0000] {processor.py:161} INFO - Started process (PID=1010) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:40.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:07:40.295+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:40.294+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:42.686+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:07:42.706+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:42.705+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:07:42.718+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:07:42.718+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:07:42.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.441 seconds
+[2026-01-12T11:08:12.804+0000] {processor.py:161} INFO - Started process (PID=1039) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:12.807+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:08:12.812+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:12.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:17.717+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:17.749+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:17.747+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:08:17.773+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:17.773+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:08:17.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.987 seconds
+[2026-01-12T11:08:48.280+0000] {processor.py:161} INFO - Started process (PID=1068) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:48.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:08:48.283+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:48.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:50.828+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:08:50.848+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:50.848+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:08:50.863+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:08:50.863+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:08:50.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.598 seconds
+[2026-01-12T11:09:21.868+0000] {processor.py:161} INFO - Started process (PID=1097) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:21.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:09:21.870+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:21.870+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:24.264+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:24.291+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:24.290+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:09:24.315+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:24.315+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:09:24.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.478 seconds
+[2026-01-12T11:09:55.414+0000] {processor.py:161} INFO - Started process (PID=1126) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:55.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:09:55.417+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:55.417+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:57.566+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:09:57.588+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:57.588+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:09:57.599+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:09:57.599+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:09:57.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.197 seconds
+[2026-01-12T11:10:27.930+0000] {processor.py:161} INFO - Started process (PID=1155) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:10:27.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:10:27.933+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:10:27.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:10:30.027+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:10:30.049+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:10:30.049+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:10:30.063+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:10:30.063+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:10:30.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.153 seconds
+[2026-01-12T11:11:00.629+0000] {processor.py:161} INFO - Started process (PID=1184) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:00.631+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:11:00.632+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:00.632+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:04.683+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:04.717+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:04.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:11:04.738+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:04.738+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:11:04.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.128 seconds
+[2026-01-12T11:11:35.383+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:35.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:11:35.385+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:35.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:37.934+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:11:37.958+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:37.958+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:11:37.974+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:11:37.974+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:11:37.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.607 seconds
+[2026-01-12T11:12:08.197+0000] {processor.py:161} INFO - Started process (PID=1250) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:08.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:12:08.200+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:08.200+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:10.137+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:10.162+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:10.162+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:12:10.182+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:10.182+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:12:10.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.002 seconds
+[2026-01-12T11:12:40.829+0000] {processor.py:161} INFO - Started process (PID=1286) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:40.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:12:40.834+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:40.834+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:44.380+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:12:44.435+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:44.435+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:12:44.459+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:12:44.458+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:12:44.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.658 seconds
+[2026-01-12T11:13:15.252+0000] {processor.py:161} INFO - Started process (PID=1315) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:15.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:13:15.256+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:15.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:17.749+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:17.776+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:17.775+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:13:17.790+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:17.790+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:13:17.808+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.562 seconds
+[2026-01-12T11:13:48.832+0000] {processor.py:161} INFO - Started process (PID=1344) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:48.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:13:48.837+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:48.835+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:52.192+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:13:52.265+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:52.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:13:52.288+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:13:52.287+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:13:52.304+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.478 seconds
+[2026-01-12T11:14:22.481+0000] {processor.py:161} INFO - Started process (PID=1373) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:22.482+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:14:22.484+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:22.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:25.127+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:25.146+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:25.145+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:14:25.162+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:25.162+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:14:25.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.695 seconds
+[2026-01-12T11:14:55.831+0000] {processor.py:161} INFO - Started process (PID=1402) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:55.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:14:55.834+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:55.833+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:57.771+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:14:57.787+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:57.787+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:14:57.800+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:14:57.800+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:14:57.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 1.982 seconds
+[2026-01-12T11:15:28.558+0000] {processor.py:161} INFO - Started process (PID=1431) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:15:28.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:15:28.562+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:15:28.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:15:32.753+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:15:32.780+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:15:32.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:15:32.791+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:15:32.791+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:15:32.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.247 seconds
+[2026-01-12T11:16:03.540+0000] {processor.py:161} INFO - Started process (PID=1460) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:03.542+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:16:03.543+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:03.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:06.506+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:06.546+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:06.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:16:06.565+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:06.565+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:16:06.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.047 seconds
+[2026-01-12T11:16:37.202+0000] {processor.py:161} INFO - Started process (PID=1489) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:37.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:16:37.205+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:37.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:39.809+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:16:39.828+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:39.827+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:16:39.838+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:16:39.838+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:16:39.847+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.651 seconds
+[2026-01-12T11:17:10.445+0000] {processor.py:161} INFO - Started process (PID=1518) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:10.445+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:17:10.446+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:10.446+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:14.637+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:14.661+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:14.661+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:17:14.676+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:14.676+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:17:14.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.247 seconds
+[2026-01-12T11:17:45.417+0000] {processor.py:161} INFO - Started process (PID=1562) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:45.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:17:45.419+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:45.418+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:48.586+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:17:48.623+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:48.622+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:17:48.658+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:17:48.657+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:17:48.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.257 seconds
+[2026-01-12T11:18:18.892+0000] {processor.py:161} INFO - Started process (PID=1591) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:18.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:18:18.895+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:18.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:21.690+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:21.709+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:21.709+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:18:21.722+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:21.722+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:18:21.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.848 seconds
+[2026-01-12T11:18:52.370+0000] {processor.py:161} INFO - Started process (PID=1620) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:52.372+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:18:52.372+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:52.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:55.683+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:18:55.702+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:55.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:18:55.718+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:18:55.718+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:18:55.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.362 seconds
+[2026-01-12T11:19:25.949+0000] {processor.py:161} INFO - Started process (PID=1649) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:19:25.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:19:25.952+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:19:25.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:19:28.236+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:19:28.257+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:19:28.257+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:19:28.269+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:19:28.269+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:19:28.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.331 seconds
+[2026-01-12T11:19:58.672+0000] {processor.py:161} INFO - Started process (PID=1678) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:19:58.673+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:19:58.674+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:19:58.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:20:01.173+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:20:01.207+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:20:01.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:20:01.221+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:20:01.221+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:20:01.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.561 seconds
+[2026-01-12T11:20:31.345+0000] {processor.py:161} INFO - Started process (PID=1707) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:20:31.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:20:31.352+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:20:31.350+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:20:34.553+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:20:34.588+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:20:34.587+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:20:34.606+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:20:34.606+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:20:34.621+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.280 seconds
+[2026-01-12T11:21:04.950+0000] {processor.py:161} INFO - Started process (PID=1736) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:04.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:21:04.952+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:04.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:07.638+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:07.654+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:07.653+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:21:07.665+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:07.665+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:21:07.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.728 seconds
+[2026-01-12T11:21:38.503+0000] {processor.py:161} INFO - Started process (PID=1765) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:38.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:21:38.507+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:38.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:42.283+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:21:42.312+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:42.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:21:42.342+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:21:42.341+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:21:42.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.868 seconds
+[2026-01-12T11:22:13.203+0000] {processor.py:161} INFO - Started process (PID=1794) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:13.204+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:22:13.205+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:13.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:16.231+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:16.256+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:16.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:22:16.269+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:16.269+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:22:16.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.087 seconds
+[2026-01-12T11:22:47.705+0000] {processor.py:161} INFO - Started process (PID=1823) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:47.756+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:22:47.773+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:47.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:52.321+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:22:52.345+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:52.345+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:22:52.358+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:22:52.358+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:22:52.376+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.877 seconds
+[2026-01-12T11:23:22.696+0000] {processor.py:161} INFO - Started process (PID=1867) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:23:22.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:23:22.705+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:23:22.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:23:31.472+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:23:31.508+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:23:31.507+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:23:31.528+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:23:31.528+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:23:31.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 8.867 seconds
+[2026-01-12T11:24:02.462+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:02.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:24:02.464+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:02.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:09.014+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:09.043+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:09.042+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:24:09.056+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:09.056+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:24:09.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.611 seconds
+[2026-01-12T11:24:40.143+0000] {processor.py:161} INFO - Started process (PID=1925) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:40.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:24:40.146+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:40.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:43.415+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:24:43.438+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:43.437+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:24:43.451+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:24:43.451+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:24:43.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.322 seconds
+[2026-01-12T11:25:14.030+0000] {processor.py:161} INFO - Started process (PID=1954) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:14.032+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:25:14.032+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:14.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:20.890+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:21.129+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:21.123+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:25:21.234+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:21.234+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:25:21.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.236 seconds
+[2026-01-12T11:25:51.885+0000] {processor.py:161} INFO - Started process (PID=1983) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:51.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:25:51.888+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:51.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:54.847+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:25:54.873+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:54.872+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:25:54.885+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:25:54.885+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:25:54.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.019 seconds
+[2026-01-12T11:26:25.563+0000] {processor.py:161} INFO - Started process (PID=2020) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:26:25.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:26:25.565+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:26:25.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:26:28.106+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:26:28.130+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:26:28.129+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:26:28.142+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:26:28.142+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:26:28.152+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.590 seconds
+[2026-01-12T11:26:58.231+0000] {processor.py:161} INFO - Started process (PID=2056) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:26:58.232+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:26:58.233+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:26:58.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:27:02.807+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:27:02.891+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:27:02.890+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:27:02.906+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:27:02.905+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:27:02.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.694 seconds
+[2026-01-12T11:27:33.636+0000] {processor.py:161} INFO - Started process (PID=2085) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:27:33.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:27:33.641+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:27:33.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:27:39.276+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:27:39.330+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:27:39.329+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:27:39.383+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:27:39.383+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:27:39.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.791 seconds
+[2026-01-12T11:28:10.015+0000] {processor.py:161} INFO - Started process (PID=2114) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:10.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:28:10.018+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:10.017+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:12.709+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:12.739+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:12.738+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:28:12.753+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:12.753+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:28:12.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.761 seconds
+[2026-01-12T11:28:43.299+0000] {processor.py:161} INFO - Started process (PID=2143) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:43.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:28:43.301+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:43.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:46.398+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:28:46.440+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:46.440+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:28:46.470+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:28:46.470+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:28:46.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.192 seconds
+[2026-01-12T11:29:16.892+0000] {processor.py:161} INFO - Started process (PID=2172) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:16.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:29:16.895+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:16.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:19.152+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:19.180+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:19.179+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:29:19.195+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:19.194+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:29:19.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.322 seconds
+[2026-01-12T11:29:49.864+0000] {processor.py:161} INFO - Started process (PID=2201) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:49.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:29:49.866+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:49.866+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:52.170+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:29:52.186+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:52.186+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:29:52.197+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:29:52.197+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:29:52.206+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.364 seconds
+[2026-01-12T11:30:22.380+0000] {processor.py:161} INFO - Started process (PID=2230) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:22.381+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:30:22.381+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:22.381+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:25.522+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:25.572+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:25.571+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:30:25.597+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:25.597+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:30:25.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.238 seconds
+[2026-01-12T11:30:56.086+0000] {processor.py:161} INFO - Started process (PID=2259) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:56.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:30:56.093+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:56.089+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:58.843+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:30:58.876+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:58.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:30:58.890+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:30:58.890+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:30:58.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.819 seconds
+[2026-01-12T11:31:29.523+0000] {processor.py:161} INFO - Started process (PID=2288) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:31:29.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:31:29.527+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:31:29.526+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:31:32.006+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:31:32.020+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:31:32.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:31:32.032+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:31:32.032+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:31:32.040+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.523 seconds
+[2026-01-12T11:32:02.433+0000] {processor.py:161} INFO - Started process (PID=2332) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:02.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:32:02.434+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:02.434+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:04.968+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:04.994+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:04.994+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:32:05.018+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:05.018+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:32:05.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.607 seconds
+[2026-01-12T11:32:35.944+0000] {processor.py:161} INFO - Started process (PID=2361) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:35.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:32:35.947+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:35.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:38.427+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:32:38.450+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:38.449+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:32:38.461+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:32:38.461+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:32:38.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.528 seconds
+[2026-01-12T11:33:08.605+0000] {processor.py:161} INFO - Started process (PID=2390) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:08.608+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:33:08.609+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:08.609+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:10.698+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:10.721+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:10.721+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:33:10.737+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:10.737+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:33:10.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.153 seconds
+[2026-01-12T11:33:40.920+0000] {processor.py:161} INFO - Started process (PID=2419) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:40.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:33:40.929+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:40.928+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:44.662+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:33:44.702+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:44.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:33:44.719+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:33:44.719+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:33:44.731+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.829 seconds
+[2026-01-12T11:34:15.235+0000] {processor.py:161} INFO - Started process (PID=2448) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:15.464+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:34:15.469+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:15.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:18.954+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:19.016+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:19.015+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:34:19.021+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:19.021+0000] {dag.py:3058} INFO - Creating ORM DAG for tsla_stock_prediction_pipeline
+[2026-01-12T11:34:19.026+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:19.026+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:34:19.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.808 seconds
+[2026-01-12T11:34:49.574+0000] {processor.py:161} INFO - Started process (PID=2477) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:49.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:34:49.576+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:49.576+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:52.529+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:34:52.551+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:52.550+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:34:52.563+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:34:52.563+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:34:52.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.003 seconds
+[2026-01-12T11:35:23.187+0000] {processor.py:161} INFO - Started process (PID=2506) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:35:23.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:35:23.189+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:35:23.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:35:26.505+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:35:26.631+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:35:26.630+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:35:26.670+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:35:26.670+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:35:26.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.518 seconds
+[2026-01-12T11:35:57.820+0000] {processor.py:161} INFO - Started process (PID=2535) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:35:57.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:35:57.822+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:35:57.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:36:00.634+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:36:00.765+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:36:00.764+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:36:00.797+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:36:00.797+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:36:00.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.999 seconds
+[2026-01-12T11:36:31.514+0000] {processor.py:161} INFO - Started process (PID=2564) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:36:31.518+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:36:31.522+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:36:31.520+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:36:35.000+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:36:35.031+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:36:35.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:36:35.049+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:36:35.049+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:36:35.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.549 seconds
+[2026-01-12T11:37:05.670+0000] {processor.py:161} INFO - Started process (PID=2593) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:05.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:37:05.673+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:05.672+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:08.906+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:08.948+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:08.948+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:37:08.969+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:08.969+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:37:08.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.319 seconds
+[2026-01-12T11:37:39.456+0000] {processor.py:161} INFO - Started process (PID=2637) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:39.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:37:39.458+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:39.457+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:42.339+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:37:42.375+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:42.375+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:37:42.394+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:37:42.394+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:37:42.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.971 seconds
+[2026-01-12T11:38:13.073+0000] {processor.py:161} INFO - Started process (PID=2666) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:13.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:38:13.076+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:13.076+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:15.275+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:15.306+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:15.306+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:38:15.327+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:15.327+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:38:15.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.271 seconds
+[2026-01-12T11:38:45.738+0000] {processor.py:161} INFO - Started process (PID=2695) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:45.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:38:45.740+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:45.740+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:49.017+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:38:49.055+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:49.054+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:38:49.068+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:38:49.068+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:38:49.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.355 seconds
+[2026-01-12T11:39:19.493+0000] {processor.py:161} INFO - Started process (PID=2724) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:19.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:39:19.495+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:19.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:21.806+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:21.822+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:21.822+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:39:21.835+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:21.835+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:39:21.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.355 seconds
+[2026-01-12T11:39:52.276+0000] {processor.py:161} INFO - Started process (PID=2753) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:52.278+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:39:52.279+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:52.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:55.201+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:39:55.226+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:55.226+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:39:55.248+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:39:55.247+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:39:55.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.990 seconds
+[2026-01-12T11:40:25.685+0000] {processor.py:161} INFO - Started process (PID=2782) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:40:25.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:40:25.690+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:40:25.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:40:29.892+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:40:29.948+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:40:29.946+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:40:29.995+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:40:29.994+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:40:30.074+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.394 seconds
+[2026-01-12T11:41:00.950+0000] {processor.py:161} INFO - Started process (PID=2811) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:00.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:41:00.956+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:00.955+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:04.140+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:04.198+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:04.197+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:41:04.213+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:04.213+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:41:04.228+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.284 seconds
+[2026-01-12T11:41:34.944+0000] {processor.py:161} INFO - Started process (PID=2840) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:34.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:41:34.989+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:34.979+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:40.933+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:41:40.976+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:40.975+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:41:40.998+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:41:40.998+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:41:41.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.095 seconds
+[2026-01-12T11:42:11.565+0000] {processor.py:161} INFO - Started process (PID=2869) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:11.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:42:11.567+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:11.567+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:13.959+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:13.973+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:13.973+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:42:13.984+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:13.984+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:42:13.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.434 seconds
+[2026-01-12T11:42:44.405+0000] {processor.py:161} INFO - Started process (PID=2906) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:44.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:42:44.407+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:44.407+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:47.625+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:42:47.656+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:47.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:42:47.675+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:42:47.675+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:42:47.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.283 seconds
+[2026-01-12T11:43:18.005+0000] {processor.py:161} INFO - Started process (PID=2942) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:43:18.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:43:18.009+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:43:18.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:44:00.102+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:44:00.078+0000] {timeout.py:68} ERROR - Process timed out, PID: 2942
+[2026-01-12T11:44:00.222+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:44:00.128+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 10, in <module>
+    from tensorflow.keras.models import load_model
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/__init__.py", line 55, in <module>
+    from tensorflow._api.v2 import compat
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat import v1
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/__init__.py", line 30, in <module>
+    from tensorflow._api.v2.compat.v1 import compat
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.compat import v1
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/compat/v1/__init__.py", line 63, in <module>
+    from tensorflow._api.v2.compat.v1 import random
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/random/__init__.py", line 8, in <module>
+    from tensorflow._api.v2.compat.v1.random import experimental
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/_api/v2/compat/v1/random/experimental/__init__.py", line 9, in <module>
+    from tensorflow.python.ops.stateful_random_ops import Generator # line: 220
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/python/ops/stateful_random_ops.py", line 27, in <module>
+    from tensorflow.python.ops import gen_stateful_random_ops
+  File "/home/airflow/.local/lib/python3.10/site-packages/tensorflow/python/ops/gen_stateful_random_ops.py", line 519, in <module>
+    TV_StatefulUniform_dtype = TypeVar("TV_StatefulUniform_dtype", "_atypes.BFloat16", "_atypes.Bool", "_atypes.Complex128", "_atypes.Complex64", "_atypes.Float16", "_atypes.Float32", "_atypes.Float64", "_atypes.Float8e4m3b11fnuz", "_atypes.Float8e4m3fn", "_atypes.Float8e4m3fnuz", "_atypes.Float8e5m2", "_atypes.Float8e5m2fnuz", "_atypes.Half", "_atypes.Int16", "_atypes.Int2", "_atypes.Int32", "_atypes.Int4", "_atypes.Int64", "_atypes.Int8", "_atypes.QInt16", "_atypes.QInt32", "_atypes.QInt8", "_atypes.QUInt16", "_atypes.QUInt8", "_atypes.Resource", "_atypes.String", "_atypes.UInt16", "_atypes.UInt2", "_atypes.UInt32", "_atypes.UInt4", "_atypes.UInt64", "_atypes.UInt8", "_atypes.Variant")
+  File "/usr/local/lib/python3.10/typing.py", line 810, in __init__
+    self.__constraints__ = tuple(_type_check(t, msg) for t in constraints)
+  File "/usr/local/lib/python3.10/typing.py", line 810, in <genexpr>
+    self.__constraints__ = tuple(_type_check(t, msg) for t in constraints)
+  File "/usr/local/lib/python3.10/typing.py", line 164, in _type_check
+    arg = _type_convert(arg, module=module, allow_special_forms=allow_special_forms)
+  File "/usr/local/lib/python3.10/typing.py", line 142, in _type_convert
+    return ForwardRef(arg, module=module, is_class=allow_special_forms)
+  File "/usr/local/lib/python3.10/typing.py", line 668, in __init__
+    code = compile(arg, '<string>', 'eval')
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 2942
+[2026-01-12T11:44:00.255+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:44:00.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 42.579 seconds
+[2026-01-12T11:44:31.841+0000] {processor.py:161} INFO - Started process (PID=2986) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:44:31.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:44:31.844+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:44:31.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:44:38.640+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:44:38.774+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:44:38.774+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:44:38.789+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:44:38.789+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:44:38.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.965 seconds
+[2026-01-12T11:45:09.392+0000] {processor.py:161} INFO - Started process (PID=3015) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:09.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:45:09.394+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:09.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:12.155+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:12.217+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:12.216+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:45:12.243+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:12.243+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:45:12.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.868 seconds
+[2026-01-12T11:45:43.038+0000] {processor.py:161} INFO - Started process (PID=3044) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:43.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:45:43.045+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:43.045+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:46.489+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:45:46.515+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:46.514+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:45:46.527+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:45:46.527+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:45:46.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.512 seconds
+[2026-01-12T11:46:16.686+0000] {processor.py:161} INFO - Started process (PID=3073) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:16.687+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:46:16.688+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:16.688+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:18.884+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:18.904+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:18.904+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:46:18.916+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:18.916+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:46:18.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 2.242 seconds
+[2026-01-12T11:46:49.391+0000] {processor.py:161} INFO - Started process (PID=3102) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:49.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:46:49.394+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:49.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:54.154+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:46:54.274+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:54.273+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:46:54.345+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:46:54.345+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:46:54.381+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.994 seconds
+[2026-01-12T11:47:25.245+0000] {processor.py:161} INFO - Started process (PID=3144) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:47:25.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:47:25.248+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:47:25.248+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:47:28.618+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:47:28.656+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:47:28.656+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:47:28.675+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:47:28.675+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:47:28.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.448 seconds
+[2026-01-12T11:48:00.349+0000] {processor.py:161} INFO - Started process (PID=3329) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:48:00.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:48:00.417+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:48:00.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:48:30.757+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:48:30.593+0000] {timeout.py:68} ERROR - Process timed out, PID: 3329
+[2026-01-12T11:48:31.138+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:48:30.827+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 9, in <module>
+    from sklearn.preprocessing import MinMaxScaler
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/__init__.py", line 73, in <module>
+    from .base import clone  # noqa: E402
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/base.py", line 19, in <module>
+    from .utils._metadata_requests import _MetadataRequester, _routing_enabled
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/__init__.py", line 9, in <module>
+    from ._chunking import gen_batches, gen_even_slices
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/_chunking.py", line 11, in <module>
+    from ._param_validation import Interval, validate_params
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/_param_validation.py", line 17, in <module>
+    from .validation import _is_arraylike_not_scalar
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/validation.py", line 21, in <module>
+    from ..utils._array_api import _asarray_with_order, _is_numpy_namespace, get_namespace
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/_array_api.py", line 20, in <module>
+    from .fixes import parse_version
+  File "/home/airflow/.local/lib/python3.10/site-packages/sklearn/utils/fixes.py", line 16, in <module>
+    import scipy.stats
+  File "/home/airflow/.local/lib/python3.10/site-packages/scipy/stats/__init__.py", line 628, in <module>
+    from ._multicomp import *
+  File "/home/airflow/.local/lib/python3.10/site-packages/scipy/stats/_multicomp.py", line 26, in <module>
+    class DunnettResult:
+  File "/usr/local/lib/python3.10/dataclasses.py", line 1184, in dataclass
+    return wrap(cls)
+  File "/usr/local/lib/python3.10/dataclasses.py", line 1175, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+  File "/usr/local/lib/python3.10/dataclasses.py", line 1090, in _process_class
+    if not getattr(cls, '__doc__'):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3329
+[2026-01-12T11:48:31.822+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:48:33.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 33.384 seconds
+[2026-01-12T11:49:11.144+0000] {processor.py:161} INFO - Started process (PID=3536) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:49:11.238+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:49:11.625+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:49:11.361+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:49:43.083+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:49:42.778+0000] {timeout.py:68} ERROR - Process timed out, PID: 3536
+[2026-01-12T11:49:43.532+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:49:43.282+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/__init__.py", line 23, in <module>
+    from .search import Search
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/search.py", line 24, in <module>
+    from . import utils
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/utils.py", line 37, in <module>
+    import pandas as _pd
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/__init__.py", line 135, in <module>
+    from pandas import api, arrays, errors, io, plotting, tseries
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/api/__init__.py", line 2, in <module>
+    from pandas.api import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/api/typing/__init__.py", line 31, in <module>
+    from pandas.io.json._json import JsonReader
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/json/__init__.py", line 1, in <module>
+    from pandas.io.json._json import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/json/_json.py", line 67, in <module>
+    from pandas.io.parsers.readers import validate_integer
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/__init__.py", line 1, in <module>
+    from pandas.io.parsers.readers import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 27, in <module>
+    from pandas._libs.parsers import STR_NA_VALUES
+  File "<frozen importlib._bootstrap>", line 404, in parent
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3536
+[2026-01-12T11:49:43.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:49:44.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 36.259 seconds
+[2026-01-12T11:50:23.549+0000] {processor.py:161} INFO - Started process (PID=3583) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:50:23.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:50:23.628+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:50:23.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:50:59.792+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:50:59.790+0000] {timeout.py:68} ERROR - Process timed out, PID: 3583
+[2026-01-12T11:50:59.792+0000] {logging_mixin.py:188} WARNING - Exception ignored in: <function _collection_gced at 0xffff95f2af80>
+[2026-01-12T11:50:59.793+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2026-01-12T11:50:59.793+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2026-01-12T11:50:59.795+0000] {logging_mixin.py:188} WARNING -     def _collection_gced(ref):
+[2026-01-12T11:50:59.795+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+[2026-01-12T11:50:59.797+0000] {logging_mixin.py:188} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2026-01-12T11:50:59.797+0000] {logging_mixin.py:188} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3583
+[2026-01-12T11:51:08.274+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:51:08.854+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:51:08.847+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:51:08.876+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:51:08.876+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:51:08.896+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 45.620 seconds
+[2026-01-12T11:51:39.659+0000] {processor.py:161} INFO - Started process (PID=3632) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:51:39.663+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:51:39.665+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:51:39.664+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:51:54.029+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:51:54.065+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:51:54.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T11:51:54.085+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:51:54.085+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T11:51:54.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 14.465 seconds
+[2026-01-12T11:52:27.612+0000] {processor.py:161} INFO - Started process (PID=3661) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:52:28.174+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:52:28.772+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:52:28.676+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:53:01.962+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:52:59.266+0000] {timeout.py:68} ERROR - Process timed out, PID: 3661
+[2026-01-12T11:53:03.112+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:53:02.317+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/__init__.py", line 23, in <module>
+    from .search import Search
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/search.py", line 27, in <module>
+    from .data import YfData
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/data.py", line 6, in <module>
+    from curl_cffi import requests
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/__init__.py", line 64, in <module>
+    from .requests import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/requests/__init__.py", line 40, in <module>
+    from .session import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/requests/session.py", line 42, in <module>
+    import eventlet.tpool
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/__init__.py", line 6, in <module>
+    from eventlet import convenience
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/convenience.py", line 4, in <module>
+    from eventlet import greenpool
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/greenpool.py", line 4, in <module>
+    from eventlet import queue
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/queue.py", line 48, in <module>
+    from eventlet.event import Event
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/event.py", line 1, in <module>
+    from eventlet import hubs
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/hubs/__init__.py", line 12, in <module>
+    threading = patcher.original('threading')
+  File "/home/airflow/.local/lib/python3.10/site-packages/eventlet/patcher.py", line 207, in original
+    real_mod = __import__(modname, {}, {}, modname.split('.')[:-1])
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1012, in get_code
+  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3661
+[2026-01-12T11:53:03.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:53:06.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 39.852 seconds
+[2026-01-12T11:53:48.117+0000] {processor.py:161} INFO - Started process (PID=3697) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:53:48.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:53:48.129+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:53:48.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:55:07.672+0000] {processor.py:161} INFO - Started process (PID=3731) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:55:07.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:55:07.774+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:55:07.753+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:56:30.450+0000] {processor.py:161} INFO - Started process (PID=3765) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:56:30.504+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:56:31.053+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:56:30.938+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:57:05.882+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:57:01.880+0000] {timeout.py:68} ERROR - Process timed out, PID: 3765
+[2026-01-12T11:57:07.680+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:57:06.519+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/__init__.py", line 23, in <module>
+    from .search import Search
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/search.py", line 27, in <module>
+    from .data import YfData
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/data.py", line 6, in <module>
+    from curl_cffi import requests
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/__init__.py", line 64, in <module>
+    from .requests import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/requests/__init__.py", line 40, in <module>
+    from .session import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/curl_cffi/requests/session.py", line 39, in <module>
+    import gevent
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/__init__.py", line 71, in <module>
+    from gevent._config import config
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/_config.py", line 730, in <module>
+    Loop().get()
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/_config.py", line 151, in get
+    self.value = self.validate(self._default())
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/_config.py", line 259, in validate
+    return self._import_one_of([self.shortname_map.get(x, x) for x in value])
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/_config.py", line 230, in _import_one_of
+    return self._import_one(item)
+  File "/home/airflow/.local/lib/python3.10/site-packages/gevent/_config.py", line 248, in _import_one
+    module = importlib.import_module(module)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "src/gevent/libev/corecext.pyx", line 819, in init gevent.libev.corecext
+  File "/home/airflow/.local/lib/python3.10/site-packages/zope/interface/__init__.py", line 53, in <module>
+    from zope.interface.interface import Interface
+  File "/home/airflow/.local/lib/python3.10/site-packages/zope/interface/interface.py", line 22, in <module>
+    from zope.interface._compat import _use_c_impl
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3765
+[2026-01-12T11:57:08.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:57:12.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 42.298 seconds
+[2026-01-12T11:57:48.502+0000] {processor.py:161} INFO - Started process (PID=3801) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:57:48.594+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:57:48.675+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:57:48.655+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:58:20.420+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:58:19.100+0000] {timeout.py:68} ERROR - Process timed out, PID: 3801
+[2026-01-12T11:58:23.217+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:58:21.519+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/__init__.py", line 23, in <module>
+    from .search import Search
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/search.py", line 24, in <module>
+    from . import utils
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/utils.py", line 37, in <module>
+    import pandas as _pd
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/__init__.py", line 46, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/api.py", line 47, in <module>
+    from pandas.core.groupby import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/groupby/__init__.py", line 1, in <module>
+    from pandas.core.groupby.generic import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/groupby/generic.py", line 67, in <module>
+    from pandas.core.frame import DataFrame
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/frame.py", line 142, in <module>
+    from pandas.core.generic import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 187, in <module>
+    from pandas.core.window import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/window/__init__.py", line 1, in <module>
+    from pandas.core.window.ewm import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/window/ewm.py", line 26, in <module>
+    from pandas.core.util.numba_ import (
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3801
+[2026-01-12T11:58:29.431+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:58:35.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 46.914 seconds
+[2026-01-12T11:59:08.981+0000] {processor.py:161} INFO - Started process (PID=3825) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T11:59:08.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T11:59:09.057+0000] {logging_mixin.py:188} INFO - [2026-01-12T11:59:09.048+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:00:31.178+0000] {processor.py:161} INFO - Started process (PID=3859) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:00:31.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:00:31.222+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:00:31.221+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:01:57.713+0000] {processor.py:161} INFO - Started process (PID=3885) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:01:58.054+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:01:58.872+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:01:58.628+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:02:30.897+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:02:29.759+0000] {timeout.py:68} ERROR - Process timed out, PID: 3885
+[2026-01-12T12:02:31.105+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:02:30.924+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/__init__.py", line 23, in <module>
+    from .search import Search
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/search.py", line 24, in <module>
+    from . import utils
+  File "/home/airflow/.local/lib/python3.10/site-packages/yfinance/utils.py", line 37, in <module>
+    import pandas as _pd
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/__init__.py", line 46, in <module>
+    from pandas.core.api import (
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/api.py", line 28, in <module>
+    from pandas.core.arrays import Categorical
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/arrays/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow import ArrowExtensionArray
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/__init__.py", line 1, in <module>
+    from pandas.core.arrays.arrow.array import ArrowExtensionArray
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/arrays/arrow/array.py", line 52, in <module>
+    from pandas.core.arrays._arrow_string_mixins import ArrowStringArrayMixin
+  File "/home/airflow/.local/lib/python3.10/site-packages/pandas/core/arrays/_arrow_string_mixins.py", line 11, in <module>
+    import pyarrow.compute as pc
+  File "/home/airflow/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 335, in <module>
+    _make_global_functions()
+  File "/home/airflow/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 332, in _make_global_functions
+    g[cpp_name] = g[name] = _wrap_function(name, func)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 301, in _wrap_function
+    wrapper.__signature__ = _make_signature(arg_names, var_arg_names,
+  File "/home/airflow/.local/lib/python3.10/site-packages/pyarrow/compute.py", line 275, in _make_signature
+    options_sig = inspect.signature(options_class)
+  File "/usr/local/lib/python3.10/inspect.py", line 3254, in signature
+    return Signature.from_callable(obj, follow_wrapped=follow_wrapped,
+  File "/usr/local/lib/python3.10/inspect.py", line 3002, in from_callable
+    return _signature_from_callable(obj, sigcls=cls,
+  File "/usr/local/lib/python3.10/inspect.py", line 2460, in _signature_from_callable
+    if isfunction(obj) or _signature_is_functionlike(obj):
+  File "/usr/local/lib/python3.10/inspect.py", line 2004, in _signature_is_functionlike
+    if not callable(obj) or isclass(obj):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3885
+[2026-01-12T12:02:31.866+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:02:39.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 42.322 seconds
+[2026-01-12T12:03:20.193+0000] {processor.py:161} INFO - Started process (PID=3911) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:03:20.450+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:03:20.465+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:03:20.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:04:39.671+0000] {processor.py:161} INFO - Started process (PID=3963) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:04:39.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:04:39.814+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:04:39.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:05:17.847+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:05:17.841+0000] {timeout.py:68} ERROR - Process timed out, PID: 3963
+[2026-01-12T12:05:17.856+0000] {logging_mixin.py:188} WARNING - Exception ignored in: <function _collection_gced at 0xffff95f2af80>
+[2026-01-12T12:05:17.858+0000] {logging_mixin.py:188} WARNING - Traceback (most recent call last):
+[2026-01-12T12:05:17.859+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.10/site-packages/sqlalchemy/event/registry.py", line 53, in _collection_gced
+[2026-01-12T12:05:17.891+0000] {logging_mixin.py:188} WARNING -     def _collection_gced(ref):
+[2026-01-12T12:05:17.896+0000] {logging_mixin.py:188} WARNING -   File "/home/airflow/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+[2026-01-12T12:05:17.900+0000] {logging_mixin.py:188} WARNING -     raise AirflowTaskTimeout(self.error_message)
+[2026-01-12T12:05:17.901+0000] {logging_mixin.py:188} WARNING - airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/tsla_stock_prediction_dag.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.8.1/best-practices.html#reducing-dag-complexity, PID: 3963
+[2026-01-12T12:06:00.333+0000] {processor.py:161} INFO - Started process (PID=4019) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:00.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:06:00.534+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:00.527+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:13.544+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:13.729+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:13.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:06:13.746+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:13.746+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:06:13.768+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 13.723 seconds
+[2026-01-12T12:06:44.591+0000] {processor.py:161} INFO - Started process (PID=4053) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:44.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:06:44.594+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:44.593+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:51.522+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:06:51.547+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:51.546+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:06:51.563+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:06:51.562+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:06:51.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.000 seconds
+[2026-01-12T12:07:22.774+0000] {processor.py:161} INFO - Started process (PID=4094) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:07:22.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:07:22.778+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:07:22.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:07:28.246+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:07:28.334+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:07:28.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:07:28.379+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:07:28.379+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:07:28.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.646 seconds
+[2026-01-12T12:07:58.982+0000] {processor.py:161} INFO - Started process (PID=4123) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:07:58.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:07:58.984+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:07:58.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:08:04.087+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:08:04.133+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:08:04.133+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:08:04.164+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:08:04.164+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:08:04.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.208 seconds
+[2026-01-12T12:08:34.944+0000] {processor.py:161} INFO - Started process (PID=4152) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:08:34.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:08:34.950+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:08:34.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:08:41.732+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:08:41.939+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:08:41.937+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:08:42.127+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:08:42.126+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:08:42.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.295 seconds
+[2026-01-12T12:09:13.041+0000] {processor.py:161} INFO - Started process (PID=4184) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:13.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:09:13.044+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:13.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:19.115+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:19.168+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:19.168+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:09:19.201+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:19.201+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:09:19.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.184 seconds
+[2026-01-12T12:09:49.883+0000] {processor.py:161} INFO - Started process (PID=4215) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:49.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:09:49.889+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:49.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:55.275+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:09:55.316+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:55.315+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:09:55.341+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:09:55.340+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:09:55.356+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.477 seconds
+[2026-01-12T12:10:25.969+0000] {processor.py:161} INFO - Started process (PID=4254) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:10:25.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:10:25.972+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:10:25.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:10:29.896+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:10:29.962+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:10:29.961+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:10:30.008+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:10:30.008+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:10:30.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.088 seconds
+[2026-01-12T12:11:00.953+0000] {processor.py:161} INFO - Started process (PID=4283) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:00.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:11:00.956+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:00.956+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:05.609+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:05.676+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:05.675+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:11:05.703+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:05.702+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:11:05.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.780 seconds
+[2026-01-12T12:11:36.519+0000] {processor.py:161} INFO - Started process (PID=4312) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:36.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:11:36.523+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:36.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:39.633+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:11:39.663+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:39.662+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:11:39.686+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:11:39.686+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:11:39.698+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.186 seconds
+[2026-01-12T12:12:10.446+0000] {processor.py:161} INFO - Started process (PID=4341) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:10.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:12:10.448+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:10.448+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:14.773+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:14.846+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:14.845+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:12:14.881+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:14.881+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:12:14.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.453 seconds
+[2026-01-12T12:12:45.090+0000] {processor.py:161} INFO - Started process (PID=4370) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:45.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:12:45.093+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:45.093+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:49.312+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:12:49.334+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:49.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:12:49.352+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:12:49.351+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:12:49.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.286 seconds
+[2026-01-12T12:13:20.117+0000] {processor.py:161} INFO - Started process (PID=4404) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:20.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:13:20.126+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:20.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:23.931+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:23.971+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:23.971+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:13:23.996+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:23.996+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:13:24.012+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.902 seconds
+[2026-01-12T12:13:54.678+0000] {processor.py:161} INFO - Started process (PID=4433) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:54.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:13:54.681+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:54.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:58.528+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:13:58.562+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:58.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:13:58.577+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:13:58.576+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:13:58.586+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.917 seconds
+[2026-01-12T12:14:29.565+0000] {processor.py:161} INFO - Started process (PID=4472) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:14:29.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:14:29.573+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:14:29.573+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:14:36.125+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:14:36.165+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:14:36.164+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:14:36.200+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:14:36.200+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:14:36.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.663 seconds
+[2026-01-12T12:15:07.113+0000] {processor.py:161} INFO - Started process (PID=4501) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:07.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:15:07.120+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:07.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:10.774+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:10.833+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:10.832+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:15:10.873+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:10.872+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:15:10.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.789 seconds
+[2026-01-12T12:15:41.947+0000] {processor.py:161} INFO - Started process (PID=4530) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:41.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:15:41.952+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:41.952+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:46.727+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:15:46.823+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:46.822+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:15:46.902+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:15:46.901+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:15:47.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.081 seconds
+[2026-01-12T12:16:17.780+0000] {processor.py:161} INFO - Started process (PID=4559) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:17.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:16:17.783+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:17.782+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:21.787+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:21.866+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:21.865+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:16:21.901+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:21.901+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:16:21.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.150 seconds
+[2026-01-12T12:16:52.658+0000] {processor.py:161} INFO - Started process (PID=4588) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:52.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:16:52.662+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:52.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:55.629+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:16:55.660+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:55.659+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:16:55.678+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:16:55.678+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:16:55.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.039 seconds
+[2026-01-12T12:17:25.775+0000] {processor.py:161} INFO - Started process (PID=4622) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:17:25.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:17:25.778+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:17:25.777+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:17:33.448+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:17:33.505+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:17:33.492+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:17:33.575+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:17:33.574+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:17:33.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.855 seconds
+[2026-01-12T12:18:04.385+0000] {processor.py:161} INFO - Started process (PID=4661) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:04.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:18:04.387+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:04.387+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:10.686+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:10.763+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:10.762+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:18:10.795+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:10.794+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:18:10.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 6.427 seconds
+[2026-01-12T12:18:40.953+0000] {processor.py:161} INFO - Started process (PID=4690) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:40.957+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:18:40.961+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:40.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:45.652+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:18:45.690+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:45.690+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:18:45.717+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:18:45.717+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:18:45.744+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.799 seconds
+[2026-01-12T12:19:16.536+0000] {processor.py:161} INFO - Started process (PID=4719) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:16.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:19:16.542+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:16.542+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:21.099+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:21.204+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:21.203+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:19:21.231+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:21.230+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:19:21.248+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 4.717 seconds
+[2026-01-12T12:19:51.505+0000] {processor.py:161} INFO - Started process (PID=4748) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:51.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:19:51.508+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:51.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:54.608+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:19:54.629+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:54.628+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:19:54.644+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:19:54.644+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:19:54.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.154 seconds
+[2026-01-12T12:20:25.196+0000] {processor.py:161} INFO - Started process (PID=4777) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:20:25.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:20:25.199+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:20:25.199+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:20:28.568+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:20:28.611+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:20:28.611+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:20:28.629+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:20:28.629+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:20:28.645+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.456 seconds
+[2026-01-12T12:20:58.902+0000] {processor.py:161} INFO - Started process (PID=4806) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:20:58.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:20:58.904+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:20:58.904+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:21:04.035+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:21:04.074+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:21:04.073+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:21:04.131+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:21:04.131+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:21:04.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.411 seconds
+[2026-01-12T12:21:35.156+0000] {processor.py:161} INFO - Started process (PID=4840) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:21:35.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:21:35.163+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:21:35.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:21:40.098+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:21:40.133+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:21:40.132+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:21:40.149+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:21:40.149+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:21:40.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 5.021 seconds
+[2026-01-12T12:22:10.822+0000] {processor.py:161} INFO - Started process (PID=4879) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:10.824+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:22:10.825+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:10.825+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:14.594+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:14.639+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:14.638+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:22:14.669+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:14.669+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:22:14.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 3.867 seconds
+[2026-01-12T12:22:45.215+0000] {processor.py:161} INFO - Started process (PID=4908) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:45.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:22:45.219+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:45.218+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:52.473+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:52.524+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:52.524+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:22:52.560+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:52.560+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:22:52.589+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 7.386 seconds
+[2026-01-12T12:22:58.782+0000] {processor.py:161} INFO - Started process (PID=4922) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:58.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:22:58.785+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:58.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:58.869+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:22:58.995+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:58.995+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:22:59.057+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:22:59.054+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:22:59.121+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.363 seconds
+[2026-01-12T12:23:04.203+0000] {processor.py:161} INFO - Started process (PID=4930) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:04.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:23:04.205+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:04.205+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:04.232+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:04.263+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:04.263+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:23:04.291+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:04.290+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:23:04.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.108 seconds
+[2026-01-12T12:23:11.664+0000] {processor.py:161} INFO - Started process (PID=4947) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:11.669+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:23:11.673+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:11.671+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:11.731+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:11.773+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:11.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:23:11.797+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:11.797+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:23:11.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.164 seconds
+[2026-01-12T12:23:21.349+0000] {processor.py:161} INFO - Started process (PID=4952) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:21.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:23:21.357+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:21.356+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:21.422+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:21.590+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:21.590+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:23:21.652+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:21.651+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:23:21.680+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.349 seconds
+[2026-01-12T12:23:29.452+0000] {processor.py:161} INFO - Started process (PID=4957) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:29.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:23:29.465+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:29.464+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:29.542+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:29.692+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:29.691+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:23:29.796+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:29.795+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:23:30.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 1.304 seconds
+[2026-01-12T12:23:35.588+0000] {processor.py:161} INFO - Started process (PID=4967) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:35.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:23:35.593+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:35.591+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:35.655+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:23:35.876+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:35.875+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:23:35.997+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:23:35.994+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:23:36.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.564 seconds
+[2026-01-12T12:24:06.744+0000] {processor.py:161} INFO - Started process (PID=4987) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:06.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:24:06.747+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:06.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:06.759+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:06.803+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:06.803+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:24:06.824+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:06.824+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:24:06.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.096 seconds
+[2026-01-12T12:24:37.335+0000] {processor.py:161} INFO - Started process (PID=5007) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:37.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:24:37.341+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:37.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:37.362+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:24:37.387+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:37.387+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:24:37.418+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:24:37.417+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:24:37.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.107 seconds
+[2026-01-12T12:25:07.858+0000] {processor.py:161} INFO - Started process (PID=5027) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:25:07.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:25:07.860+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:25:07.859+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:25:07.869+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:25:07.888+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:25:07.888+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:25:07.901+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:25:07.901+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:25:07.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.056 seconds
+[2026-01-12T12:26:57.481+0000] {processor.py:161} INFO - Started process (PID=154) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:26:57.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:26:57.484+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:26:57.484+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:26:57.510+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:26:57.579+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:26:57.578+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:26:57.602+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:26:57.602+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:26:57.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.140 seconds
+[2026-01-12T12:27:28.200+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:28.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:27:28.205+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:28.204+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:28.326+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:28.447+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:28.447+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:27:28.479+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:28.479+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:27:28.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.301 seconds
+[2026-01-12T12:27:59.035+0000] {processor.py:161} INFO - Started process (PID=232) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:59.037+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-12T12:27:59.038+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:59.038+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:59.091+0000] {processor.py:840} INFO - DAG(s) 'tsla_stock_prediction_pipeline' retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-12T12:27:59.166+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:59.166+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-12T12:27:59.278+0000] {logging_mixin.py:188} INFO - [2026-01-12T12:27:59.278+0000] {dag.py:3823} INFO - Setting next_dagrun for tsla_stock_prediction_pipeline to 2026-01-12 18:00:00+00:00, run_after=2026-01-13 18:00:00+00:00
+[2026-01-12T12:27:59.307+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.275 seconds

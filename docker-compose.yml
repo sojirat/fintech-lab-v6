@@ -1,0 +1,168 @@
+services:
+  jupyterlab:
+    build: ./jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./jupyter:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - JUPYTER_TOKEN=fintech2025
+    networks:
+      - fintech_network
+
+  fastapi:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
+      - mongo
+    volumes:
+      - ./backend:/app
+      - ./jupyter/models:/app/models
+    environment:
+      - PYTHONUNBUFFERED=1
+    networks:
+      - fintech_network
+
+  django:
+    build: ./frontend
+    ports:
+      - "8082:8080"
+    depends_on:
+      - db
+      - mongo
+      - fastapi
+    environment:
+      - DJANGO_SETTINGS_MODULE=logviewer.settings
+    networks:
+      - fintech_network
+
+  db:
+    image: postgres:16-alpine
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: fintech
+      POSTGRES_USER: fintech
+      POSTGRES_PASSWORD: fintech
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - fintech_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U fintech"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - fintech_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongo:
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=fintech
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - fintech_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Apache Airflow (Workflow Orchestration - Hybrid Setup)
+  # Runs ML training jobs using shared volumes with JupyterLab
+  airflow:
+    image: apache/airflow:2.8.1-python3.10
+    ports:
+      - "8083:8080"
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=LocalExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://fintech:fintech@db/fintech
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__SECRET_KEY=fintech2025_secret_key
+      - AIRFLOW__CORE__FERNET_KEY=fintech2025_fernet_key_32bytes_
+      - AIRFLOW__CORE__PARALLELISM=16
+      - AIRFLOW__CORE__MAX_ACTIVE_RUNS_PER_DAG=3
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./jupyter:/opt/airflow/work # Shared with JupyterLab for scripts and models
+    networks:
+      - fintech_network
+    command: >
+      bash -c "pip install yfinance pandas numpy scikit-learn tensorflow psycopg2-binary pymongo matplotlib pyyaml &&
+               sleep 10 &&
+               airflow db migrate &&
+               airflow users create --username admin --password fintech2025 --firstname Admin --lastname User --role Admin --email admin@fintech.local || true &&
+               (airflow webserver &) &&
+               airflow scheduler"
+
+  ganache:
+    image: trufflesuite/ganache-cli
+    platform: linux/amd64
+    ports:
+      - "8545:8545"
+    command: ["--networkId", "1337", "--port", "8545"]
+    networks:
+      - fintech_network
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+    networks:
+      - fintech_network
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.console.libraries=/etc/prometheus/console_libraries"
+      - "--web.console.templates=/etc/prometheus/consoles"
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=fintech2025
+      - GF_INSTALL_PLUGINS=grafana-clock-panel
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring:/etc/grafana/provisioning
+    depends_on:
+      - prometheus
+      - db
+    networks:
+      - fintech_network
+
+networks:
+  fintech_network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  grafana_data:
+  mongodb_data:

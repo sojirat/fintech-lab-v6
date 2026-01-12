@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinTech Logs</title>
+</head>
+<body>
+    <h2>📜 FinTech Prediction Logs</h2>
+    <table border="1">
+        <tr>
+            <th>Timestamp</th>
+            <th>Endpoint</th>
+            <th>Client</th>
+            <th>Input</th>
+            <th>Prediction</th>
+        </tr>
+        {% for log in logs %}
+        <tr>
+            <td>{{ log.timestamp }}</td>
+            <td>{{ log.endpoint }}</td>
+            <td>{{ log.client }}</td>
+            <td>{{ log.input }}</td>
+            <td>{{ log.prediction }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

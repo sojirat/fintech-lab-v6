@@ -1,0 +1,71 @@
+╔════════════════════════════════════════════════════════════╗
+║     TSLA Stock Prediction - Installation Guide            ║
+╚════════════════════════════════════════════════════════════╝
+
+📦 STEP 1: Install Dependencies (First Time Only)
+──────────────────────────────────────────────────────────────
+
+  cd /home/jovyan/work
+  bash install_dependencies.sh
+
+  This will install:
+  ✓ TensorFlow 2.15.0
+  ✓ scikit-learn 1.3.2
+  ✓ yfinance 0.2.32
+  ✓ pandas, numpy, matplotlib
+
+  Time: ~2-3 minutes
+
+
+🚀 STEP 2: Train Models
+──────────────────────────────────────────────────────────────
+
+  Option A: Train all models at once (recommended)
+  ─────────────────────────────────────────────────
+  bash train_all_models.sh
+
+  Time: ~10-15 minutes
+
+
+  Option B: Train individually
+  ─────────────────────────────────────────────────
+  python scripts/stock_prediction/lstm_stock_prediction.py
+  python scripts/stock_prediction/gru_stock_prediction.py
+  python scripts/stock_prediction/transformer_stock_prediction.py
+  python scripts/stock_prediction/compare_models.py
+
+
+📊 STEP 3: View Results
+──────────────────────────────────────────────────────────────
+
+  Dashboard: http://localhost:8082/stock/
+  API Docs:  http://localhost:8000/docs
+
+  Models saved in: models/
+  ├── lstm_tsla_model.h5
+  ├── gru_tsla_model.h5
+  ├── transformer_tsla_model.h5
+  └── model_comparison.png
+
+
+💡 Troubleshooting
+──────────────────────────────────────────────────────────────
+
+  Problem: ModuleNotFoundError: No module named 'tensorflow'
+  Solution: Run: bash install_dependencies.sh
+
+  Problem: Models not found in API
+  Solution: Make sure training completed successfully
+
+  Problem: Permission denied
+  Solution: Run: chmod +x *.sh
+
+
+📚 Documentation
+──────────────────────────────────────────────────────────────
+
+  jupyter/README.md           - Jupyter workspace guide
+  QUICK_START.md              - 5-minute quick start
+  README_TSLA_PREDICTION.md   - Full documentation
+
+╚════════════════════════════════════════════════════════════╝

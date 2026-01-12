@@ -1,0 +1,364 @@
+[2026-01-11T00:27:46.979+0000] {processor.py:161} INFO - Started process (PID=69702) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:27:46.981+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T00:27:46.987+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:46.984+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:27:47.007+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:47.004+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T00:27:47.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:27:47.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.093 seconds
+[2026-01-11T00:28:17.995+0000] {processor.py:161} INFO - Started process (PID=69724) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:28:17.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T00:28:18.009+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:18.003+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:28:18.021+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:18.017+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T00:28:18.023+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T00:28:18.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.084 seconds
+[2026-01-11T01:17:04.162+0000] {processor.py:161} INFO - Started process (PID=69744) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:17:04.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T01:17:04.163+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:17:04.169+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.168+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T01:17:04.169+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:17:04.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.033 seconds
+[2026-01-11T01:29:14.570+0000] {processor.py:161} INFO - Started process (PID=69770) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:29:14.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T01:29:14.572+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:29:14.579+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.577+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T01:29:14.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T01:29:14.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.061 seconds
+[2026-01-11T02:03:46.734+0000] {processor.py:161} INFO - Started process (PID=69794) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:03:46.736+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T02:03:46.737+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.737+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:03:46.753+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.745+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T02:03:46.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:03:46.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.156 seconds
+[2026-01-11T02:30:10.987+0000] {processor.py:161} INFO - Started process (PID=69816) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:30:10.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T02:30:10.993+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:10.993+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:30:11.003+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:11.001+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T02:30:11.003+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T02:30:11.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.065 seconds
+[2026-01-11T03:02:01.620+0000] {processor.py:161} INFO - Started process (PID=69842) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:02:01.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T03:02:01.623+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.622+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:02:01.633+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.630+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T03:02:01.635+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:02:01.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.052 seconds
+[2026-01-11T03:31:07.532+0000] {processor.py:161} INFO - Started process (PID=69866) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:31:07.533+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T03:31:07.534+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.534+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:31:07.537+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.537+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T03:31:07.537+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:31:07.567+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.041 seconds
+[2026-01-11T03:49:34.101+0000] {processor.py:161} INFO - Started process (PID=69894) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:49:34.101+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T03:49:34.102+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.102+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:49:34.105+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.105+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T03:49:34.106+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T03:49:34.128+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.029 seconds
+[2026-01-11T04:05:58.560+0000] {processor.py:161} INFO - Started process (PID=69914) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:05:58.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T04:05:58.564+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:05:58.573+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.571+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T04:05:58.574+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:05:58.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.068 seconds
+[2026-01-11T04:31:58.774+0000] {processor.py:161} INFO - Started process (PID=69938) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:31:58.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T04:31:58.778+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.778+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:31:58.781+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.781+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T04:31:58.782+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:31:58.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.026 seconds
+[2026-01-11T04:32:29.262+0000] {processor.py:161} INFO - Started process (PID=69962) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:32:29.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T04:32:29.263+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.263+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:32:29.282+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.268+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T04:32:29.286+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T04:32:29.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.051 seconds
+[2026-01-11T05:32:56.386+0000] {processor.py:161} INFO - Started process (PID=69982) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:32:56.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T05:32:56.395+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.394+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:32:56.425+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.423+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T05:32:56.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:32:56.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.089 seconds
+[2026-01-11T05:33:26.986+0000] {processor.py:161} INFO - Started process (PID=70006) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:33:26.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T05:33:26.988+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:26.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:33:26.992+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:26.991+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T05:33:26.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T05:33:27.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.033 seconds
+[2026-01-11T06:33:52.721+0000] {processor.py:161} INFO - Started process (PID=70026) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:33:52.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T06:33:52.724+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:33:52.739+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.736+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T06:33:52.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:33:52.786+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.072 seconds
+[2026-01-11T06:34:23.344+0000] {processor.py:161} INFO - Started process (PID=70050) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:34:23.345+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T06:34:23.346+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:34:23.349+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.348+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T06:34:23.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T06:34:23.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.022 seconds
+[2026-01-11T07:07:44.150+0000] {processor.py:161} INFO - Started process (PID=70072) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:07:44.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:07:44.151+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:07:44.156+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.155+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:07:44.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:07:44.170+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.022 seconds
+[2026-01-11T07:08:14.693+0000] {processor.py:161} INFO - Started process (PID=70096) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:08:14.695+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:08:14.696+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:08:14.699+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.698+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:08:14.699+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:08:14.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.027 seconds
+[2026-01-11T07:09:34.521+0000] {processor.py:161} INFO - Started process (PID=70116) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:09:34.522+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:09:34.522+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.522+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:09:34.525+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.524+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:09:34.525+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:09:34.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.023 seconds
+[2026-01-11T07:25:46.998+0000] {processor.py:161} INFO - Started process (PID=70138) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:25:47.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:25:47.002+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:47.001+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:25:47.006+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:47.006+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:25:47.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:25:47.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.024 seconds
+[2026-01-11T07:26:17.508+0000] {processor.py:161} INFO - Started process (PID=70162) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:26:17.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:26:17.511+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.511+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:26:17.514+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.514+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:26:17.515+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:26:17.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.023 seconds
+[2026-01-11T07:35:04.140+0000] {processor.py:161} INFO - Started process (PID=70182) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:35:04.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:35:04.146+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:35:04.164+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.157+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:35:04.165+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:35:04.197+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.061 seconds
+[2026-01-11T07:50:56.048+0000] {processor.py:161} INFO - Started process (PID=70208) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:50:56.049+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T07:50:56.050+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:56.049+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:50:56.059+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:56.057+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T07:50:56.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T07:50:56.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.053 seconds
+[2026-01-11T08:27:16.655+0000] {processor.py:161} INFO - Started process (PID=70238) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:16.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T08:27:16.657+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:16.662+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.661+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T08:27:16.663+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:16.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.040 seconds
+[2026-01-11T08:27:47.275+0000] {processor.py:161} INFO - Started process (PID=70258) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:47.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T08:27:47.283+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.283+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:47.289+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.287+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T08:27:47.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:27:47.329+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.057 seconds
+[2026-01-11T08:28:18.117+0000] {processor.py:161} INFO - Started process (PID=70278) to work on /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:28:18.118+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/tsla_stock_prediction_dag.py for tasks to queue
+[2026-01-11T08:28:18.119+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:18.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:28:18.139+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:18.129+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/tsla_stock_prediction_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/tsla_stock_prediction_dag.py", line 5, in <module>
+    import yfinance as yf
+ModuleNotFoundError: No module named 'yfinance'
+[2026-01-11T08:28:18.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/tsla_stock_prediction_dag.py
+[2026-01-11T08:28:18.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/tsla_stock_prediction_dag.py took 0.088 seconds

@@ -1,0 +1,29 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database drivers (lightweight)
+psycopg2-binary
+redis
+pymongo
+
+# Monitoring
+prometheus-client
+
+# Utilities
+requests
+pyyaml
+
+# Data handling
+pandas
+numpy
+
+# Stock data
+yfinance
+yahooquery
+
+# ML (for loading pre-trained models only)
+# Note: Training happens in JupyterLab container
+tensorflow==2.15.0
+scikit-learn

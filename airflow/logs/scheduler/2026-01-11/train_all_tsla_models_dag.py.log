@@ -1,0 +1,182 @@
+[2026-01-11T00:27:46.437+0000] {processor.py:161} INFO - Started process (PID=69695) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:27:46.438+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T00:27:46.439+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:46.439+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:27:46.474+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:27:46.508+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:46.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T00:27:46.530+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:27:46.529+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T00:27:46.648+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.217 seconds
+[2026-01-11T00:28:17.718+0000] {processor.py:161} INFO - Started process (PID=69719) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:28:17.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T00:28:17.722+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:17.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:28:17.760+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T00:28:17.841+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:17.841+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T00:28:17.892+0000] {logging_mixin.py:188} INFO - [2026-01-11T00:28:17.891+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T00:28:17.925+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.219 seconds
+[2026-01-11T01:17:04.007+0000] {processor.py:161} INFO - Started process (PID=69739) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:17:04.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T01:17:04.011+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:17:04.044+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:17:04.088+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.088+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T01:17:04.110+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:17:04.110+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T01:17:04.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.135 seconds
+[2026-01-11T01:29:14.294+0000] {processor.py:161} INFO - Started process (PID=69763) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:29:14.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T01:29:14.299+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.299+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:29:14.328+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T01:29:14.410+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.410+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T01:29:14.477+0000] {logging_mixin.py:188} INFO - [2026-01-11T01:29:14.477+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T01:29:14.528+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.247 seconds
+[2026-01-11T02:03:46.322+0000] {processor.py:161} INFO - Started process (PID=69785) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:03:46.326+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T02:03:46.327+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:03:46.392+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:03:46.560+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.560+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:03:46.633+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:03:46.633+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T02:03:46.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.399 seconds
+[2026-01-11T02:30:10.692+0000] {processor.py:161} INFO - Started process (PID=69811) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:30:10.693+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T02:30:10.695+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:10.694+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:30:10.721+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T02:30:10.796+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:10.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T02:30:10.843+0000] {logging_mixin.py:188} INFO - [2026-01-11T02:30:10.843+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T02:30:10.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.235 seconds
+[2026-01-11T03:02:01.310+0000] {processor.py:161} INFO - Started process (PID=69837) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:02:01.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T03:02:01.317+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:02:01.408+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:02:01.480+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:02:01.532+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:02:01.532+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T03:02:01.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.277 seconds
+[2026-01-11T03:31:07.408+0000] {processor.py:161} INFO - Started process (PID=69861) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:31:07.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T03:31:07.410+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:31:07.442+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:31:07.476+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.476+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:31:07.494+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:31:07.494+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T03:31:07.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.105 seconds
+[2026-01-11T03:49:33.184+0000] {processor.py:161} INFO - Started process (PID=69885) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:49:33.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T03:49:33.190+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:33.190+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:49:33.612+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T03:49:33.971+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:33.970+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T03:49:34.036+0000] {logging_mixin.py:188} INFO - [2026-01-11T03:49:34.035+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T03:49:34.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.883 seconds
+[2026-01-11T04:05:58.298+0000] {processor.py:161} INFO - Started process (PID=69909) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:05:58.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T04:05:58.303+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.302+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:05:58.338+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:05:58.412+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:05:58.464+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:05:58.464+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T04:05:58.505+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.215 seconds
+[2026-01-11T04:31:58.642+0000] {processor.py:161} INFO - Started process (PID=69933) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:31:58.643+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T04:31:58.643+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.643+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:31:58.669+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:31:58.700+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.700+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:31:58.720+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:31:58.720+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T04:31:58.751+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.112 seconds
+[2026-01-11T04:32:29.166+0000] {processor.py:161} INFO - Started process (PID=69957) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:32:29.167+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T04:32:29.168+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:32:29.185+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T04:32:29.211+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.211+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T04:32:29.229+0000] {logging_mixin.py:188} INFO - [2026-01-11T04:32:29.229+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T04:32:29.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.088 seconds
+[2026-01-11T05:32:56.085+0000] {processor.py:161} INFO - Started process (PID=69977) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:32:56.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T05:32:56.092+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.092+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:32:56.138+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:32:56.205+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.205+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T05:32:56.244+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:32:56.244+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T05:32:56.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.212 seconds
+[2026-01-11T05:33:26.875+0000] {processor.py:161} INFO - Started process (PID=70000) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:33:26.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T05:33:26.880+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:26.879+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:33:26.899+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T05:33:26.931+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:26.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T05:33:26.947+0000] {logging_mixin.py:188} INFO - [2026-01-11T05:33:26.947+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T05:33:26.959+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.087 seconds
+[2026-01-11T06:33:52.439+0000] {processor.py:161} INFO - Started process (PID=70021) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:33:52.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T06:33:52.441+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.441+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:33:52.460+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:33:52.526+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.526+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T06:33:52.616+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:33:52.616+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T06:33:52.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.226 seconds
+[2026-01-11T06:34:23.221+0000] {processor.py:161} INFO - Started process (PID=70045) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:34:23.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T06:34:23.225+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.225+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:34:23.255+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T06:34:23.289+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.289+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T06:34:23.309+0000] {logging_mixin.py:188} INFO - [2026-01-11T06:34:23.309+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T06:34:23.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.107 seconds
+[2026-01-11T07:07:44.065+0000] {processor.py:161} INFO - Started process (PID=70067) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:07:44.066+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:07:44.067+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:07:44.082+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:07:44.106+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:07:44.124+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:07:44.124+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:07:44.134+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.070 seconds
+[2026-01-11T07:08:14.586+0000] {processor.py:161} INFO - Started process (PID=70091) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:08:14.587+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:08:14.588+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.587+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:08:14.606+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:08:14.639+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.639+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:08:14.657+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:08:14.656+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:08:14.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.085 seconds
+[2026-01-11T07:09:34.441+0000] {processor.py:161} INFO - Started process (PID=70111) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:09:34.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:09:34.443+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.443+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:09:34.460+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:09:34.483+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.483+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:09:34.499+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:09:34.499+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:09:34.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.070 seconds
+[2026-01-11T07:25:46.901+0000] {processor.py:161} INFO - Started process (PID=70132) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:25:46.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:25:46.903+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:46.902+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:25:46.933+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:25:46.959+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:46.959+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:25:46.973+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:25:46.973+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:25:46.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.083 seconds
+[2026-01-11T07:26:17.415+0000] {processor.py:161} INFO - Started process (PID=70157) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:26:17.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:26:17.419+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.419+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:26:17.433+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:26:17.459+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.459+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:26:17.473+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:26:17.473+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:26:17.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.076 seconds
+[2026-01-11T07:35:03.917+0000] {processor.py:161} INFO - Started process (PID=70177) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:35:03.918+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:35:03.919+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:03.919+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:35:03.943+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:35:03.988+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:03.988+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:35:04.038+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:35:04.037+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:35:04.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.166 seconds
+[2026-01-11T07:50:55.742+0000] {processor.py:161} INFO - Started process (PID=70201) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:50:55.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T07:50:55.746+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:55.746+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:50:55.802+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T07:50:55.890+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:55.890+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T07:50:55.942+0000] {logging_mixin.py:188} INFO - [2026-01-11T07:50:55.942+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T07:50:55.991+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.262 seconds
+[2026-01-11T08:27:15.518+0000] {processor.py:161} INFO - Started process (PID=70227) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:15.525+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T08:27:15.560+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:15.554+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:15.912+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:16.295+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.295+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:27:16.508+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:16.508+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T08:27:16.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 1.150 seconds
+[2026-01-11T08:27:46.894+0000] {processor.py:161} INFO - Started process (PID=70251) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:46.896+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T08:27:46.900+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:46.900+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:46.943+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:27:47.032+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.031+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:27:47.131+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:27:47.130+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T08:27:47.215+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.333 seconds
+[2026-01-11T08:28:17.774+0000] {processor.py:161} INFO - Started process (PID=70269) to work on /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:28:17.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/train_all_tsla_models_dag.py for tasks to queue
+[2026-01-11T08:28:17.785+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:17.783+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:28:17.858+0000] {processor.py:840} INFO - DAG(s) 'train_all_tsla_models' retrieved from /opt/airflow/dags/train_all_tsla_models_dag.py
+[2026-01-11T08:28:17.937+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:17.937+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2026-01-11T08:28:17.997+0000] {logging_mixin.py:188} INFO - [2026-01-11T08:28:17.997+0000] {dag.py:3823} INFO - Setting next_dagrun for train_all_tsla_models to 2026-01-08 18:00:00+00:00, run_after=2026-01-09 18:00:00+00:00
+[2026-01-11T08:28:18.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/train_all_tsla_models_dag.py took 0.319 seconds

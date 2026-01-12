@@ -1,0 +1,57 @@
+{
+  "dashboard": {
+    "title": "FinTech Lab - Transaction Monitoring",
+    "tags": ["fintech", "fraud-detection", "bitcoin"],
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Fraud Detection Rate",
+        "type": "graph",
+        "gridPos": {"x": 0, "y": 0, "w": 12, "h": 8},
+        "targets": [
+          {
+            "expr": "rate(fraud_detection_total[5m])",
+            "legendFormat": "Fraud Rate"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Bitcoin Price Predictions",
+        "type": "timeseries",
+        "gridPos": {"x": 12, "y": 0, "w": 12, "h": 8},
+        "description": "Bitcoin price predictions from TimeGPT/Prophet"
+      },
+      {
+        "id": 3,
+        "title": "API Response Time",
+        "type": "stat",
+        "gridPos": {"x": 0, "y": 8, "w": 6, "h": 4},
+        "targets": [
+          {
+            "expr": "avg(http_request_duration_seconds)"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Total Transactions",
+        "type": "stat",
+        "gridPos": {"x": 6, "y": 8, "w": 6, "h": 4},
+        "targets": [
+          {
+            "expr": "sum(transaction_total)"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Anomaly Detection",
+        "type": "graph",
+        "gridPos": {"x": 12, "y": 8, "w": 12, "h": 8},
+        "description": "Real-time anomaly detection results"
+      }
+    ]
+  }
+}
